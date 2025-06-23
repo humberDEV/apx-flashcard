@@ -1,0 +1,5068 @@
+[
+  {
+    "id": "a26798fe-40e3-4c7a-92db-8fe8cc4dbc08",
+    "question": "¿Que librería permite al desarrollador acceder y manipular bases de datos relacionales?",
+    "options": [
+      {
+        "text": "JDBC",
+        "isCorrect": true
+      },
+      {
+        "text": "MongoDB",
+        "isCorrect": false
+      },
+      {
+        "text": "Librería Simple",
+        "isCorrect": false
+      },
+      {
+        "text": "Ninguna de las anteriores",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "fe3916ff-3601-4156-bb86-512b3aa071b6",
+    "question": "¿Hasta dónde se puede desplegar una rama \"feature\"?",
+    "options": [
+      {
+        "text": "Solo Desarrollo",
+        "isCorrect": false
+      },
+      {
+        "text": "Desarrollo, Integrado y Aceptación de Usuarios",
+        "isCorrect": false
+      },
+      {
+        "text": "Desarrollo e Integrado",
+        "isCorrect": true
+      },
+      {
+        "text": "Todos los entornos, incluyendo producción",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "7293de5b-8db3-4456-9ae2-e0e7684f2b21",
+    "question": "La zona de ejecución APX 40 indica...",
+    "options": [
+      {
+        "text": "Transacciones asíncronas",
+        "isCorrect": false
+      },
+      {
+        "text": "Transacciones en “Cuarentena”",
+        "isCorrect": false
+      },
+      {
+        "text": "Transacciones con “Altas Dependencias”",
+        "isCorrect": true
+      },
+      {
+        "text": "Transacciones críticas de alto rendimiento",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "ad59ebcf-9c10-415f-9ec9-3393ecc44cde",
+    "question": "¿Cuál es el número máximo de métodos que se pueden incluir en una librería?",
+    "options": [
+      {
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "text": "5",
+        "isCorrect": true
+      },
+      {
+        "text": "7",
+        "isCorrect": false
+      },
+      {
+        "text": "9",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "27e17130-850e-4fc1-b9af-852d47beef89",
+    "question": "Como regla general,  ¿Se pueden utilizar librerías de terceros?",
+    "options": [
+      {
+        "text": "Si",
+        "isCorrect": false
+      },
+      {
+        "text": "Nunca",
+        "isCorrect": false
+      },
+      {
+        "text": "Si se abre un JIRA a Gobierno para analizar el caso",
+        "isCorrect": false
+      },
+      {
+        "text": "Comunicándolo a Arquitectura APX para analizar el caso",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "ef7a785b-7aaf-430c-9564-341e3649c984",
+    "question": "Para poder revisar los errores en la ejecución de un componente APX, deberemos:",
+    "options": [
+      {
+        "text": "Revisar la compilación y el despliegue en desarrollo",
+        "isCorrect": false
+      },
+      {
+        "text": "Revisar y ajustar los test unitarios",
+        "isCorrect": false
+      },
+      {
+        "text": "Revisar Kibana",
+        "isCorrect": false
+      },
+      {
+        "text": "Revisar las trazas en Atenea",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "0b43747c-b521-497b-a588-6c0e2d60b992",
+    "question": "¿Qué mínimo de cobertura en Sonar debe tener un componente?",
+    "options": [
+      {
+        "text": "75%",
+        "isCorrect": false
+      },
+      {
+        "text": "70%",
+        "isCorrect": false
+      },
+      {
+        "text": "85%",
+        "isCorrect": false
+      },
+      {
+        "text": "80%",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "a8847fc8-55f5-413b-9eab-9771ab25cfa2",
+    "question": "¿Cual es el proceso para crear una hoja APX?",
+    "options": [
+      {
+        "text": "No hay ningún proceso en especial para la creación de hojas APX",
+        "isCorrect": false
+      },
+      {
+        "text": "Se transfiere la hoja pero no es necesario que esté en el Inbox",
+        "isCorrect": false
+      },
+      {
+        "text": "Se crea la hoja en el Inbox pero no es necesario transferir la propiedad",
+        "isCorrect": false
+      },
+      {
+        "text": "Se crea la hoja en el Inbox y se transfiere la propiedad",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "5a7c713f-ae0a-41e6-b3e1-30c21490aa4c",
+    "question": "¿Que devuelve el Error WARN (“04”)?",
+    "options": [
+      {
+        "text": "OK + Code de aviso",
+        "isCorrect": true
+      },
+      {
+        "text": "Rechazado + Code de error (con reversión)",
+        "isCorrect": false
+      },
+      {
+        "text": "Rechazado + Code de error (Sin reversión)",
+        "isCorrect": false
+      },
+      {
+        "text": "OK sin Code de aviso",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "21300a18-5239-4e35-bd43-9bf65a904d9f",
+    "question": "¿Qué componente no hace falta que pase la cobertura de Sonar?",
+    "options": [
+      {
+        "text": "DTO",
+        "isCorrect": true
+      },
+      {
+        "text": "Librería",
+        "isCorrect": false
+      },
+      {
+        "text": "Transacción",
+        "isCorrect": false
+      },
+      {
+        "text": "Todos los anteriores necesitan pasar la cobertura",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "8fb73363-1d37-4430-9edf-110a57dcd952",
+    "question": "Los roles que están implicados en el proceso de modificar un componente express son...",
+    "options": [
+      {
+        "text": "Developer y OCTA",
+        "isCorrect": false
+      },
+      {
+        "text": "Developer y Gobierno",
+        "isCorrect": false
+      },
+      {
+        "text": "Developer y Release Manager",
+        "isCorrect": true
+      },
+      {
+        "text": "Developer y Seguridad",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "036c0fb6-e629-43cf-974e-819073f33376",
+    "question": "¿Cuál es el nivel de LOG en Integrado?",
+    "options": [
+      {
+        "text": "ADVERTENCIA, ERROR",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo ERROR",
+        "isCorrect": false
+      },
+      {
+        "text": "INFO, ADVERTENCIA, ERROR.",
+        "isCorrect": true
+      },
+      {
+        "text": "DEBUG, INFO, ADVERTENCIA, ERROR.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "f15f2a7f-33fd-495b-9fd3-e15c24651873",
+    "question": "¿Que componentes no tienen ninguna lógica comercial?",
+    "options": [
+      {
+        "text": "Librería",
+        "isCorrect": false
+      },
+      {
+        "text": "Transacción",
+        "isCorrect": false
+      },
+      {
+        "text": "JOB",
+        "isCorrect": false
+      },
+      {
+        "text": "DTO",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "adfba717-727e-411a-8454-9445081832dd",
+    "question": "¿Cuál es el repositorio que usamos para trabajar en APX?",
+    "options": [
+      {
+        "text": "Git",
+        "isCorrect": false
+      },
+      {
+        "text": "Maven",
+        "isCorrect": false
+      },
+      {
+        "text": "Bitbucket",
+        "isCorrect": true
+      },
+      {
+        "text": "Ninguno de los anteriores",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "f5a83c85-db8b-41c1-9602-538975ea7e86",
+    "question": "Hasta qué entorno puedo desplegar una rama hotfix",
+    "options": [
+      {
+        "text": "OCTA",
+        "isCorrect": false
+      },
+      {
+        "text": "Desarrollo",
+        "isCorrect": false
+      },
+      {
+        "text": "Producción",
+        "isCorrect": false
+      },
+      {
+        "text": "Integrado",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "03ca70dc-00b3-4c8e-8ed0-964d65ce078f",
+    "question": "¿Cuál es la función de LOGGER.info para el manejo de trazas?",
+    "options": [
+      {
+        "text": "Imprime mensajes de error críticos que impiden que la aplicación funcione correctamente",
+        "isCorrect": false
+      },
+      {
+        "text": "Imprime información útil que permite ver el progreso de la aplicación",
+        "isCorrect": true
+      },
+      {
+        "text": "Imprime advertencias o fallos de aplicación no críticos",
+        "isCorrect": false
+      },
+      {
+        "text": "Le permite imprimir datos informativos con detalles finos",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "81756509-d653-4c3e-82e5-8db52787da3d",
+    "question": "¿Cuál es el proceso para crear una hoja APX?",
+    "options": [
+      {
+        "text": "Se transfiere la hoja pero no es necesario que esté en el Inbox",
+        "isCorrect": false
+      },
+      {
+        "text": "Se crea la hoja en el Inbox pero no es necesario transferir la propiedad",
+        "isCorrect": false
+      },
+      {
+        "text": "Se crea la hoja en el Inbox y se transfiere la propiedad",
+        "isCorrect": true
+      },
+      {
+        "text": "No hay ningún proceso en especial para la creación de hojas APX",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "22001beb-b476-431e-86db-b27d1c4cdf05",
+    "question": "Cuando vemos un componente del tipo UUAAR001, estamos hablando de:",
+    "options": [
+      {
+        "text": "Una transacción",
+        "isCorrect": false
+      },
+      {
+        "text": "Un DTO",
+        "isCorrect": false
+      },
+      {
+        "text": "Un job",
+        "isCorrect": false
+      },
+      {
+        "text": "Una librería",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "26f6ba33-3752-437c-8808-10c43af29c96",
+    "question": "Qué es una unidad de despliegue",
+    "options": [
+      {
+        "text": "Es una manera de agrupar nuestro componente APX, pudiendo desplegar a la vez DTO, librería y transacción",
+        "isCorrect": true
+      },
+      {
+        "text": "Es el equipo encargado de desplegar nuestro componente",
+        "isCorrect": false
+      },
+      {
+        "text": "Es la utilidad que hay que añadir a nuestro proyecto APX para poder desplegar el componente por los distintos entornos",
+        "isCorrect": false
+      },
+      {
+        "text": "Es un identificador de 4 letras de nuestro componente APX",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "f8e515aa-9bfe-4eef-b3cb-d3379d4b76c2",
+    "question": "¿Con qué versión se crea un componente nuevo?",
+    "options": [
+      {
+        "text": "0.0.0-SNAPSHOT",
+        "isCorrect": false
+      },
+      {
+        "text": "0.1.0-SNAPSHOT",
+        "isCorrect": true
+      },
+      {
+        "text": "0.0.0",
+        "isCorrect": false
+      },
+      {
+        "text": "0.1.0",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "55e2a3b6-8ce3-4410-8547-ba4db12c611a",
+    "question": "Cuál de estas excepciones no está permitida capturar en APX",
+    "options": [
+      {
+        "text": "BusinessException",
+        "isCorrect": false
+      },
+      {
+        "text": "NumberFormatException",
+        "isCorrect": false
+      },
+      {
+        "text": "IOException",
+        "isCorrect": true
+      },
+      {
+        "text": "TimeoutException",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "b1da9059-f9a6-4ecc-85fc-9eda6daeefd3",
+    "question": "¿Qué significa si una transacción está en una Zona 30?",
+    "options": [
+      {
+        "text": "Transacciones asíncronas",
+        "isCorrect": false
+      },
+      {
+        "text": "Transacciones con \"Altas Dependencias\"",
+        "isCorrect": false
+      },
+      {
+        "text": "Transacciones críticas de alto rendimiento",
+        "isCorrect": false
+      },
+      {
+        "text": "Zona \"En Observación\"",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "4735b1c4-e1ac-4251-a4db-5a1f2c44a892",
+    "question": "¿En qué estado debe estar el ticket Jira de mi feature si la quiero desplegar?",
+    "options": [
+      {
+        "text": "Pending feature integration",
+        "isCorrect": false
+      },
+      {
+        "text": "Designing component",
+        "isCorrect": false
+      },
+      {
+        "text": "Under Construction",
+        "isCorrect": true
+      },
+      {
+        "text": "Ready to Deploy",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "e674ebba-1cfc-4ca3-9a52-4dc5399417a0",
+    "question": "El manejo de errores se gestiona a través de...",
+    "options": [
+      {
+        "text": "Jenkins",
+        "isCorrect": false
+      },
+      {
+        "text": "Se dan de alta en bitbucket",
+        "isCorrect": false
+      },
+      {
+        "text": "Se solicita por JIRA",
+        "isCorrect": false
+      },
+      {
+        "text": "Consola de Operación APX",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "258e9d5e-edf7-495a-884a-5754f8cbe7fd",
+    "question": "Como regla general, ¿Se pueden utilizar librerías de terceros?",
+    "options": [
+      {
+        "text": "Nunca",
+        "isCorrect": false
+      },
+      {
+        "text": "Si se abre un JIRA a Gobierno para analizar el caso",
+        "isCorrect": false
+      },
+      {
+        "text": "Si",
+        "isCorrect": false
+      },
+      {
+        "text": "Comunicándolo a Arquitectura APX para analizar el caso",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "e71e3306-2226-4739-a226-decb1d756bde",
+    "question": "¿Cuál es el número máximo de métodos que se pueden incluir en una librería?",
+    "options": [
+      {
+        "text": "5",
+        "isCorrect": true
+      },
+      {
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "text": "9",
+        "isCorrect": false
+      },
+      {
+        "text": "7",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "c113c132-ab77-4e62-8373-ba6d836f41c0",
+    "question": "¿Quién se encarga de realizar la revisión de calidad?",
+    "options": [
+      {
+        "text": "Developer",
+        "isCorrect": false
+      },
+      {
+        "text": "Equipo de Gobierno",
+        "isCorrect": false
+      },
+      {
+        "text": "Equipo de Arquitectura",
+        "isCorrect": false
+      },
+      {
+        "text": "Equipo OCTA",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "87299864-03ba-45fa-a1f3-8654fdd9f4ee",
+    "question": "El encargado de crear un nuevo recurso es..",
+    "options": [
+      {
+        "text": "Gobierno",
+        "isCorrect": false
+      },
+      {
+        "text": "Arquitectura",
+        "isCorrect": false
+      },
+      {
+        "text": "El responsable de la UUAA",
+        "isCorrect": false
+      },
+      {
+        "text": "El developer",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "b4c126ca-d4ee-4fda-b8aa-78cf09cf84ca",
+    "question": "Si queremos realizar una llamada a una API del banco desde nuestro APX, deberemos utilizar",
+    "options": [
+      {
+        "text": "La utilidad APX Rest connector",
+        "isCorrect": false
+      },
+      {
+        "text": "La utilidad APX API connector",
+        "isCorrect": true
+      },
+      {
+        "text": "No se pueden consumir APIs desde APX",
+        "isCorrect": false
+      },
+      {
+        "text": "La utilidad Rest Factory de Spring",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "fee137ed-f3d5-4e7b-b287-f0c3d981fb32",
+    "question": "Cuál es el nombre correcto para una librería",
+    "options": [
+      {
+        "text": "LIBUUAAXXX",
+        "isCorrect": false
+      },
+      {
+        "text": "XXXUUAALIB",
+        "isCorrect": false
+      },
+      {
+        "text": "UUAARXXX",
+        "isCorrect": true
+      },
+      {
+        "text": "XXXLIBUUAA",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "2844e114-e80c-4645-ba02-b43e92cc8a5d",
+    "question": "¿Dónde encontramos el archivo XML que establece los parámetros para la transacción en la estructura del proyecto generado (Skeleton)?",
+    "options": [
+      {
+        "text": "src/Test/java",
+        "isCorrect": false
+      },
+      {
+        "text": "src/Test/resources",
+        "isCorrect": false
+      },
+      {
+        "text": "src/main/java",
+        "isCorrect": false
+      },
+      {
+        "text": "src/main/resources",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "7d2c57f5-0155-42a3-86e3-aec231831652",
+    "question": "¿Cuál es la sentencia correcta para crear una librería a través de CLI?",
+    "options": [
+      {
+        "text": "apx add util -n \"New Library\"",
+        "isCorrect": false
+      },
+      {
+        "text": "apx init lib -n=\"New Library\" -u=TEST",
+        "isCorrect": false
+      },
+      {
+        "text": "apx init lib -u=TEST -c=001 -d=\"New Library\"",
+        "isCorrect": true
+      },
+      {
+        "text": "apx init lib -u=\"New Library\"",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "6710e60b-2403-4f41-b1f0-576532204087",
+    "question": "¿Para qué se crean las ramas \"RELEASE\"?",
+    "options": [
+      {
+        "text": "Es la rama donde se corrigen los errores que afectan a una versión que aún NO se ha implementado en Producción",
+        "isCorrect": false
+      },
+      {
+        "text": "Son ramas donde se implementará la de nuestra versión",
+        "isCorrect": false
+      },
+      {
+        "text": "Contienen versiones finales de software",
+        "isCorrect": true
+      },
+      {
+        "text": "Rama donde se solucionan los errores que afectan a una versión desplegada en Producción",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "9a020418-9a0c-4c37-9c6f-e5f739c4b714",
+    "question": "Hasta qué entorno puedo desplegar una rama feature",
+    "options": [
+      {
+        "text": "Integrado",
+        "isCorrect": true
+      },
+      {
+        "text": "OCTA",
+        "isCorrect": false
+      },
+      {
+        "text": "Desarrollo",
+        "isCorrect": false
+      },
+      {
+        "text": "Producción",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "1dfb99d3-6b3c-4470-9ac9-2e4dd402e741",
+    "question": "¿Qué devuelve el Error WARN (\"04\")?",
+    "options": [
+      {
+        "text": "Rechazado + Code de error (con reversión)",
+        "isCorrect": false
+      },
+      {
+        "text": "Rechazado + Code de error (Sin reversión)",
+        "isCorrect": false
+      },
+      {
+        "text": "OK sin Code de aviso",
+        "isCorrect": false
+      },
+      {
+        "text": "OK + Code de aviso",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "d897534d-45c9-468b-8e76-ba6aedf57e15",
+    "question": "Cuando vemos un componente del tipo UUAAC001, estamos hablando de",
+    "options": [
+      {
+        "text": "Una transacción",
+        "isCorrect": false
+      },
+      {
+        "text": "Un job",
+        "isCorrect": false
+      },
+      {
+        "text": "Un DTO",
+        "isCorrect": true
+      },
+      {
+        "text": "Una librería",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "64ae1020-a0cb-4984-a23d-76f6dde66674",
+    "question": "¿Qué significa si una transacción está en una Zona 30?",
+    "options": [
+      {
+        "text": "Zona \"En Observación\"",
+        "isCorrect": true
+      },
+      {
+        "text": "Transacciones con \"Altas Dependencias\"",
+        "isCorrect": false
+      },
+      {
+        "text": "Transacciones asíncronas",
+        "isCorrect": false
+      },
+      {
+        "text": "Transacciones críticas de alto rendimiento",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "3628b728-f9b3-4c8b-88ad-275c48086a5e",
+    "question": "¿Cuál es el nivel de trazas en producción?",
+    "options": [
+      {
+        "text": "WARNING",
+        "isCorrect": false
+      },
+      {
+        "text": "ERROR",
+        "isCorrect": true
+      },
+      {
+        "text": "ERROR, WARNING e INFO",
+        "isCorrect": false
+      },
+      {
+        "text": "ERROR y WARNING",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "e17e0f86-5b6c-4f38-a83a-403c499665f6",
+    "question": "Para añadir una dependencia mediante APX cli deberemos usar el comando",
+    "options": [
+      {
+        "text": "apx add dto",
+        "isCorrect": false
+      },
+      {
+        "text": "apx add lib",
+        "isCorrect": false
+      },
+      {
+        "text": "apx init",
+        "isCorrect": false
+      },
+      {
+        "text": "apx add dep",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "868242d3-e0bd-4c00-8c26-742eaa982873",
+    "question": "¿En qué está basado el API Connector?",
+    "options": [
+      {
+        "text": "En la clase RestTemplate de Spring",
+        "isCorrect": true
+      },
+      {
+        "text": "En las clase ASO",
+        "isCorrect": false
+      },
+      {
+        "text": "En la clase Singleton",
+        "isCorrect": false
+      },
+      {
+        "text": "En ninguna de las anteriores",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "1ca54b70-902e-4a60-9502-7d38242b1ffc",
+    "question": "¿Quién se encarga de realizar la revisión de calidad?",
+    "options": [
+      {
+        "text": "Developer",
+        "isCorrect": false
+      },
+      {
+        "text": "Equipo OCTA",
+        "isCorrect": true
+      },
+      {
+        "text": "Equipo de Gobierno",
+        "isCorrect": false
+      },
+      {
+        "text": "Equipo de Arquitectura",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "6b617787-b5c4-421f-80ed-55ee28c91405",
+    "question": "¿Cuál de estas excepciones es de las permitidas de capturar en un try/catch?",
+    "options": [
+      {
+        "text": "com.bbva.apx.exception.business.BusinessException",
+        "isCorrect": true
+      },
+      {
+        "text": "java.lang.Exception",
+        "isCorrect": false
+      },
+      {
+        "text": "java.lang.NumberFormatException",
+        "isCorrect": false
+      },
+      {
+        "text": "java.io.IOException",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "3fcf9f75-5e9a-4b35-9e50-8057cce2ac47",
+    "question": "¿Cuál es el mínimo de cobertura en Sonar?",
+    "options": [
+      {
+        "text": "50%",
+        "isCorrect": false
+      },
+      {
+        "text": "80%",
+        "isCorrect": true
+      },
+      {
+        "text": "70%",
+        "isCorrect": false
+      },
+      {
+        "text": "60%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "0b096446-7121-4bef-8b28-d3ca50da6175",
+    "question": "¿Es correcto realizar un Select * en mi código?",
+    "options": [
+      {
+        "text": "No, ya que no podré subir mi código si tengo Select *",
+        "isCorrect": true
+      },
+      {
+        "text": "Sí, ya que necesito recuperar toda la información de esa tabla",
+        "isCorrect": false
+      },
+      {
+        "text": "Da igual si utilizo * o informo cada columna, el resultado es el mismo",
+        "isCorrect": false
+      },
+      {
+        "text": "Ninguna de las anteriores es correcta",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "34b3d19b-b206-4cda-b208-0930c840be77",
+    "question": "La excepción com.bbva.apx.excepción.db.DuplicateKeyException se puede usar siempre y cuando...",
+    "options": [
+      {
+        "text": "Siempre que se envíe un correo a Gobierno",
+        "isCorrect": false
+      },
+      {
+        "text": "Nunca debe usarse",
+        "isCorrect": false
+      },
+      {
+        "text": "Siempre puede usarse",
+        "isCorrect": true
+      },
+      {
+        "text": "Siempre que se envíe un correo a Arquitectura APX",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "82e58449-e9e6-4f70-a1ce-72603b94af07",
+    "question": "Si necesito subir un correctivo a producción sin realizar intervenciones o validaciones de departamentos tengo que abrir un ticket del tipo",
+    "options": [
+      {
+        "text": "APX New Component",
+        "isCorrect": false
+      },
+      {
+        "text": "APX Production Component Correction",
+        "isCorrect": false
+      },
+      {
+        "text": "APX Component Express Modification",
+        "isCorrect": true
+      },
+      {
+        "text": "APX Component Modification",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "581cb143-6d3a-4985-916c-4c6cd29f2827",
+    "question": "Cuáles son los entornos que existen en APX",
+    "options": [
+      {
+        "text": "Desarrollo, Integrado y Producción",
+        "isCorrect": false
+      },
+      {
+        "text": "Desarrollo, Integrado, OCTA y Producción",
+        "isCorrect": false
+      },
+      {
+        "text": "Desarrollo, Integrado, OCTA, Aceptación de usuario y Producción",
+        "isCorrect": true
+      },
+      {
+        "text": "Desarrollo, OCTA, Aceptación de usuario y Producción",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "ef759d5b-1955-456a-a7b7-e627adaaf597",
+    "question": "¿Cuál es el primer paso para crear un recurso APX?",
+    "options": [
+      {
+        "text": "Crear componente en Bitbucket",
+        "isCorrect": false
+      },
+      {
+        "text": "Crear el componente en \"agregar recurso\" en la consola Ether",
+        "isCorrect": true
+      },
+      {
+        "text": "Crear el componente en Jenkins",
+        "isCorrect": false
+      },
+      {
+        "text": "Crear el componente en local",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "574b3d79-13c2-4d09-ba42-e376507fd7b3",
+    "question": "En los estados de jira ¿Quién es el encargado cuando está en Pending Release Candidate Validation?",
+    "options": [
+      {
+        "text": "Release Manager",
+        "isCorrect": false
+      },
+      {
+        "text": "Octa",
+        "isCorrect": false
+      },
+      {
+        "text": "Developer",
+        "isCorrect": true
+      },
+      {
+        "text": "Ninguno de los anteriores",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "c8b6bea7-a00d-4e04-becc-74f1f6618464",
+    "question": "¿Cuántas utilidades de Oracle hay en APX Batch R3?",
+    "options": [
+      {
+        "text": "2",
+        "isCorrect": true
+      },
+      {
+        "text": "7",
+        "isCorrect": false
+      },
+      {
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "text": "5",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "e8cb49f7-bcff-4a73-9111-35609e5319f7",
+    "question": "¿En qué estado tienen que aparecer los componentes en la Consola de Operaciones APX para saber que están correctamente desplegados?",
+    "options": [
+      {
+        "text": "NOT CONTENT",
+        "isCorrect": false
+      },
+      {
+        "text": "ACTIVE but not exposing service",
+        "isCorrect": false
+      },
+      {
+        "text": "INSTALLED",
+        "isCorrect": false
+      },
+      {
+        "text": "ACTIVE",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "491f1c3a-3116-4239-88ea-107e93ea6875",
+    "question": "Marca la opción INCORRECTA en cuanto a la tecnología APX se refiere:",
+    "options": [
+      {
+        "text": "Ayuda a reducir el uso del Mainframe",
+        "isCorrect": false
+      },
+      {
+        "text": "Actúa como una extensión de la plataforma Mainframe",
+        "isCorrect": false
+      },
+      {
+        "text": "Basada en tecnologías de código cerrado",
+        "isCorrect": true
+      },
+      {
+        "text": "Soporta la lógica de las aplicaciones que se adaptan a esta plataforma",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "3b35208c-96f3-4bb4-b9de-81fef9852579",
+    "question": "¿Cuál es la función de LOGGER.info para el manejo de trazas?",
+    "options": [
+      {
+        "text": "Imprime información útil que permite ver el progreso de la aplicación",
+        "isCorrect": true
+      },
+      {
+        "text": "Imprime mensajes de error críticos que impiden que la aplicación funcione correctamente",
+        "isCorrect": false
+      },
+      {
+        "text": "Imprime advertencias o fallas de aplicación no críticas",
+        "isCorrect": false
+      },
+      {
+        "text": "Le permite imprimir datos informativos con detalles finos",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "b52c9124-47d5-4622-b2d9-82c27d9093f8",
+    "question": "Para recuperar los datos de una cabecera, el método que recupera el valor de los parámetros del encabezado con el que se ejecutó la transacción es...",
+    "options": [
+      {
+        "text": "getParamHeader",
+        "isCorrect": false
+      },
+      {
+        "text": "obtainParamHeader",
+        "isCorrect": false
+      },
+      {
+        "text": "getRequestHeader",
+        "isCorrect": true
+      },
+      {
+        "text": "obtainHeader",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "4ba5bf44-0f98-4c3a-86fd-20014e24964b",
+    "question": "¿Quién realiza la revisión del diseño del componente que ha sido modificado en el caso de que se trata de un diseño Global?",
+    "options": [
+      {
+        "text": "Arquitectura Global",
+        "isCorrect": false
+      },
+      {
+        "text": "Gobierno Global",
+        "isCorrect": false
+      },
+      {
+        "text": "Arquitectura Local",
+        "isCorrect": false
+      },
+      {
+        "text": "Gobierno Local",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "38d5a12d-ba09-4da1-b9a8-e8b816695baf",
+    "question": "¿Puede haber dependencia circular entre librerías? Por ejemplo: LIB1 --depende -> LIB2 --depende -> LIB3 --depende -> LIB1",
+    "options": [
+      {
+        "text": "Solo si no supera un volumen específico",
+        "isCorrect": false
+      },
+      {
+        "text": "Depende del caso",
+        "isCorrect": false
+      },
+      {
+        "text": "Nunca",
+        "isCorrect": true
+      },
+      {
+        "text": "Si",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "6e1f13bb-b91f-41fa-9102-2d3394a4db93",
+    "question": "Los métodos públicos de una librería APX deben",
+    "options": [
+      {
+        "text": "Seguir nomenclatura camelCase, teniendo libertad a la hora de elegir un nombre mientras sea descriptivo",
+        "isCorrect": false
+      },
+      {
+        "text": "Empezar con mayúsculas y ser descriptivo",
+        "isCorrect": false
+      },
+      {
+        "text": "No existen restricciones a la hora de nombrar los métodos de una librería",
+        "isCorrect": false
+      },
+      {
+        "text": "Empezar con execute y seguir nomenclatura camelCase",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "c6bbd175-0d36-4e6f-b93e-033f5b191e2a",
+    "question": "La manera correcta de indicar la versión a importar de un componente en el pom.xml es",
+    "options": [
+      {
+        "text": "<version>[0.0, )</version>",
+        "isCorrect": true
+      },
+      {
+        "text": "<version>last.version</version>",
+        "isCorrect": false
+      },
+      {
+        "text": "<version>0.0.X</version> siendo X la versión del componente",
+        "isCorrect": false
+      },
+      {
+        "text": "<version>[0.0.X]</version> siendo X la versión del componente",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "73707726-a8ad-426a-a449-1c5ec30947d4",
+    "question": "¿Es correcto realizar un Select * en mi código?",
+    "options": [
+      {
+        "text": "Sí, ya que necesito recuperar toda la información de esa tabla",
+        "isCorrect": false
+      },
+      {
+        "text": "No, ya que no podré subir mi código si tengo Select *",
+        "isCorrect": true
+      },
+      {
+        "text": "Ninguna de las otras respuestas es correcta",
+        "isCorrect": false
+      },
+      {
+        "text": "Da igual si utilizo * o informo cada columna, el resultado es el mismo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "4f8fb757-f934-4f4b-a2ba-e264835f9a55",
+    "question": "Al ejecutar nuestros componentes APX, en caso de error, ¿dónde tenemos que ir a ver las trazas?",
+    "options": [
+      {
+        "text": "Atenea",
+        "isCorrect": true
+      },
+      {
+        "text": "Consola de Operaciones",
+        "isCorrect": false
+      },
+      {
+        "text": "Felix",
+        "isCorrect": false
+      },
+      {
+        "text": "Kibana",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "75c70593-2823-4841-b92e-fb098a3733e5",
+    "question": "El DTO alberga...",
+    "options": [
+      {
+        "text": "Información acerca de las interfaces de entrada y salida, así como objetos internos y utilidades de serialización y deserialización",
+        "isCorrect": true
+      },
+      {
+        "text": "La lógica de negocio del componente",
+        "isCorrect": false
+      },
+      {
+        "text": "El XML donde se definen los campos de entrada y de salida, así como la lógica a aplicar sobre los mismos",
+        "isCorrect": false
+      },
+      {
+        "text": "Los nombres de los métodos de la librería",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "513797fd-9e3d-46a5-a7eb-6e06ea47ed96",
+    "question": "La utilización de hilos en APX está permitida",
+    "options": [
+      {
+        "text": "Falso. Sólo se pueden utilizar hilos cuando el proyecto lo requiera.",
+        "isCorrect": false
+      },
+      {
+        "text": "Falso. No se pueden usar hilos en ningún caso",
+        "isCorrect": true
+      },
+      {
+        "text": "Verdadero. Se pueden usar siempre que no se usen más de 3 hilos concurrentes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Verdadero. No existe ninguna limitación para poder usar hilos.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "5633792d-c5be-4bca-a235-4dcd59a5374e",
+    "question": "Una vez se ha creado la hoja APX y queremos que validen el diseño, el JIRA pasa al estado...",
+    "options": [
+      {
+        "text": "Validating Design",
+        "isCorrect": true
+      },
+      {
+        "text": "Under Construction",
+        "isCorrect": false
+      },
+      {
+        "text": "Pending Profiling",
+        "isCorrect": false
+      },
+      {
+        "text": "Reviewing Quality",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "8f49ac56-9236-4f84-a299-5993f0a10656",
+    "question": "Las principales partes que podemos diferenciar en un componente APX Online son",
+    "options": [
+      {
+        "text": "DTO, Librería y Transacción",
+        "isCorrect": true
+      },
+      {
+        "text": "Librería, Conectores y Utilidades",
+        "isCorrect": false
+      },
+      {
+        "text": "Un componente APX no se divide en partes",
+        "isCorrect": false
+      },
+      {
+        "text": "Utilidades y conectores",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "d02dc4c7-203b-4c4b-93f7-739640979dbd",
+    "question": "Hasta qué entorno puedo desplegar una rama release",
+    "options": [
+      {
+        "text": "OCTA",
+        "isCorrect": false
+      },
+      {
+        "text": "Producción",
+        "isCorrect": true
+      },
+      {
+        "text": "Integrado",
+        "isCorrect": false
+      },
+      {
+        "text": "Desarrollo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "30f56777-b458-4250-94d4-f72a802f8376",
+    "question": "¿Cúal es el minimo de cobertura en Sonar?",
+    "options": [
+      {
+        "text": "80%",
+        "isCorrect": true
+      },
+      {
+        "text": "50%",
+        "isCorrect": false
+      },
+      {
+        "text": "60%",
+        "isCorrect": false
+      },
+      {
+        "text": "70%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "84cf60db-60b8-4261-ab58-71ee054db715",
+    "question": "La rama Release se obtiene desde la rama",
+    "options": [
+      {
+        "text": "develop",
+        "isCorrect": false
+      },
+      {
+        "text": "master",
+        "isCorrect": false
+      },
+      {
+        "text": "feature",
+        "isCorrect": false
+      },
+      {
+        "text": "bugfix",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "0c05b8fe-915a-4d63-a416-536fb349de6a",
+    "question": "¿Cúal es la forma correcta de dar visibilidad a otras bibliotecas para que puedan usar las tuyas?",
+    "options": [
+      {
+        "text": "visibility.UUAARNNN=AAAA,BBBBRNNN",
+        "isCorrect": false
+      },
+      {
+        "text": "visibility.UUAARNNN=*",
+        "isCorrect": false
+      },
+      {
+        "text": "Todas son correctas",
+        "isCorrect": true
+      },
+      {
+        "text": "visibility.UUAARNNN=AAAA,BBBB",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "5ef8b860-aebb-4333-9470-fd10f8c10c5f",
+    "question": "La cobertura mínima exigida para poder desplegar una rama de APX es de",
+    "options": [
+      {
+        "text": "80",
+        "isCorrect": true
+      },
+      {
+        "text": "70",
+        "isCorrect": false
+      },
+      {
+        "text": "60",
+        "isCorrect": false
+      },
+      {
+        "text": "90",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "71a71a7a-b92d-495a-8bff-98f19ed9576d",
+    "question": "Para poder generar una rama feature, ésta debe generarse desde",
+    "options": [
+      {
+        "text": "Desde la rama develop, accediendo a Jenkins en la consola Ether",
+        "isCorrect": true
+      },
+      {
+        "text": "Habrá que solicitarlo al equipo de Arquitectura APX",
+        "isCorrect": false
+      },
+      {
+        "text": "Desde la consola Git local",
+        "isCorrect": false
+      },
+      {
+        "text": "Mediante el botón \"Generate Feature\" de la consola Ether",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "05875e2d-3d66-496d-b87e-e7248463906b",
+    "question": "La rama release, ¿desde que rama sale?",
+    "options": [
+      {
+        "text": "Feature",
+        "isCorrect": false
+      },
+      {
+        "text": "HotFix",
+        "isCorrect": false
+      },
+      {
+        "text": "Develop",
+        "isCorrect": true
+      },
+      {
+        "text": "BugFix",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "cf3bf513-ee27-479b-934a-c92595fb2990",
+    "question": "Si en un evolutivo surge la necesidad de cambiar el tamaño de un campo de la salida de nuestra transacción APX, en qué parte del código tengo que modificar ese dato",
+    "options": [
+      {
+        "text": "En la librería",
+        "isCorrect": false
+      },
+      {
+        "text": "En el XML de la transaccion",
+        "isCorrect": true
+      },
+      {
+        "text": "Hay que enviar un correo a Arquitectura APX para que ellos lo modifiquen",
+        "isCorrect": false
+      },
+      {
+        "text": "En el DTO",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "f0890894-80e3-402c-8639-bf94cfd3fae5",
+    "question": "Si queremos realizar una consulta a una base de datos Oracle desde nuestro APX, deberemos utilizar",
+    "options": [
+      {
+        "text": "La librería de Oracle para proyectos Spring",
+        "isCorrect": false
+      },
+      {
+        "text": "La librería JPA",
+        "isCorrect": false
+      },
+      {
+        "text": "La utilidad APX de JDBC",
+        "isCorrect": true
+      },
+      {
+        "text": "La utilidad APX de IMS connector",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "4de39c96-347a-48b9-b75c-44663c953912",
+    "question": "¿Cuál es el estado correcto del ticket Jira para poder implantar en PR?",
+    "options": [
+      {
+        "text": "Ready to production deployment",
+        "isCorrect": true
+      },
+      {
+        "text": "Deployed",
+        "isCorrect": false
+      },
+      {
+        "text": "Pending Production Deployment",
+        "isCorrect": false
+      },
+      {
+        "text": "Ready to Integrate",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "8d487146-d31f-426c-9583-8b0d65119951",
+    "question": "¿Cual es el proceso para crear una hoja APX?",
+    "options": [
+      {
+        "text": "Se crea la hoja en el Inbox pero no es necesario transferir la propiedad",
+        "isCorrect": false
+      },
+      {
+        "text": "Se crea la hoja en el Inbox y se transfiere la propiedad",
+        "isCorrect": true
+      },
+      {
+        "text": "Se transfiere la hoja pero no es necesario que esté en el Inbox",
+        "isCorrect": false
+      },
+      {
+        "text": "No hay ningún proceso en especial para la creación de hojas APX",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "44c7870f-4018-48b0-aba7-ff53d41cddba",
+    "question": "Qué es una unidad de despliegue",
+    "options": [
+      {
+        "text": "Es la utilidad que hay que añadir a nuestro proyecto APX para poder desplegar el componente por los distintos entornos",
+        "isCorrect": false
+      },
+      {
+        "text": "Es una manera de agrupar nuestro componente APX, pudiendo desplegar a la vez DTO, librería y transacción",
+        "isCorrect": true
+      },
+      {
+        "text": "Es el equipo encargado de desplegar nuestro componente",
+        "isCorrect": false
+      },
+      {
+        "text": "Es un identificador de 4 letras de nuestro componente APX",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "6cd1060c-5145-42a3-887c-7dee6aeb6f3e",
+    "question": "Para poder revisar los errores en la ejecución de un componente APX, deberemos",
+    "options": [
+      {
+        "text": "Revisar las trazas en Atenea",
+        "isCorrect": true
+      },
+      {
+        "text": "Revisar la compilación y el despliegue en desarrollo",
+        "isCorrect": false
+      },
+      {
+        "text": "Revisar Kibana",
+        "isCorrect": false
+      },
+      {
+        "text": "Revisar y ajustar los test unitarios",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "46cab533-700d-4978-a64f-7017b5ce7f28",
+    "question": "Cuando vemos un componente del tipo UUAAR001, estamos hablando de",
+    "options": [
+      {
+        "text": "Un DTO",
+        "isCorrect": false
+      },
+      {
+        "text": "Un job",
+        "isCorrect": false
+      },
+      {
+        "text": "Una librería",
+        "isCorrect": true
+      },
+      {
+        "text": "Una transacción",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "17bad316-68f0-4bdc-889e-f3f77876577e",
+    "question": "Las principales partes que podemos diferenciar en un componente APX Online son",
+    "options": [
+      {
+        "text": "Utilidades y conectores",
+        "isCorrect": false
+      },
+      {
+        "text": "DTO, Librería y Transacción",
+        "isCorrect": true
+      },
+      {
+        "text": "Un componente APX no se divide en partes",
+        "isCorrect": false
+      },
+      {
+        "text": "Librería, Conectores y Utilidades",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "96f314cc-f3c0-4afc-a642-9d9a851c83a0",
+    "question": "¿Qué es una transacción APX?",
+    "options": [
+      {
+        "text": "Es la unidad de aplicación que se ejecutará en APX Online",
+        "isCorrect": true
+      },
+      {
+        "text": "Ninguna de las otras respuestas es correcta",
+        "isCorrect": false
+      },
+      {
+        "text": "Representa una Entidad Comercial en forma de Bean",
+        "isCorrect": false
+      },
+      {
+        "text": "Encapsula la lógica empresarial y el acceso a los datos.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "9c448ed1-76c7-4b38-b5a5-5177b07b65a3",
+    "question": "Para agregar una utilidad cuando estemos construyendo una librería, tendremos que hacerlo",
+    "options": [
+      {
+        "text": "Utilizando el CLI de APX, para asegurarnos que se realizan todos los cambios necesarios en el proyecto.",
+        "isCorrect": true
+      },
+      {
+        "text": "Las utilidades se agregan en el DTO, no en la librería",
+        "isCorrect": false
+      },
+      {
+        "text": "Añadiendo a mano la dependencia en el pom y actualizando el proyecto con mvn install",
+        "isCorrect": false
+      },
+      {
+        "text": "Creando las clases necesarias e introduciendo el código que se indica en el Platform a mano en las mismas",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "8a2af38c-df3a-4e44-9d05-022b09b5b395",
+    "question": "Cuales son los entornos que existen en APX",
+    "options": [
+      {
+        "text": "Desarrollo, Integrado, OCTA y Producción",
+        "isCorrect": false
+      },
+      {
+        "text": "Desarrollo, Integrado y Producción",
+        "isCorrect": false
+      },
+      {
+        "text": "Desarrollo, Integrado, OCTA, Aceptación de usuario y Producción",
+        "isCorrect": true
+      },
+      {
+        "text": "Desarrollo, OCTA, Aceptación de usuario y Producción",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "006a6dee-f678-4ec3-9c92-bb94ee783500",
+    "question": "¿Qué rama sube los cambios al Artifactory de Producción?",
+    "options": [
+      {
+        "text": "Bugfix",
+        "isCorrect": false
+      },
+      {
+        "text": "Release",
+        "isCorrect": true
+      },
+      {
+        "text": "Feature",
+        "isCorrect": false
+      },
+      {
+        "text": "Develop",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "f6a3a861-4837-413c-a0a4-6dcad6d5a7d0",
+    "question": "¿Dónde añadimos los códigos de error funcionales que queremos mostrar en las trasacciones?",
+    "options": [
+      {
+        "text": "En un fichero de contrates",
+        "isCorrect": false
+      },
+      {
+        "text": "Se crea en las librerias",
+        "isCorrect": false
+      },
+      {
+        "text": "En fichero xml dentro del proyecto",
+        "isCorrect": false
+      },
+      {
+        "text": "En la Consola de operaciones APX",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "6208e36b-34b3-4ac8-9e49-41b62c44f0d7",
+    "question": "¿Cuál de los siguientes no es un conector de apx?",
+    "options": [
+      {
+        "text": "IMS-connect",
+        "isCorrect": false
+      },
+      {
+        "text": "Rest-connector",
+        "isCorrect": true
+      },
+      {
+        "text": "Api-connector",
+        "isCorrect": false
+      },
+      {
+        "text": "MongoDB-connector",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "7dc1a605-798e-4bec-8434-d9236ceddfad",
+    "question": "Si necesito subir un correctivo a producción sin realizar intervenciones o validaciones de departamentos tengo que abrir un ticket del tipo",
+    "options": [
+      {
+        "text": "APX New Component",
+        "isCorrect": false
+      },
+      {
+        "text": "APX Production Component Correction",
+        "isCorrect": false
+      },
+      {
+        "text": "APX Component Modification",
+        "isCorrect": false
+      },
+      {
+        "text": "APX Component Express Modification",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "6f4a6522-14e9-4b94-883f-302f2da20c5c",
+    "question": "Hasta qué entorno puedo desplegar una rama hotfix",
+    "options": [
+      {
+        "text": "Desarrollo",
+        "isCorrect": false
+      },
+      {
+        "text": "Producción",
+        "isCorrect": false
+      },
+      {
+        "text": "Integrado",
+        "isCorrect": true
+      },
+      {
+        "text": "OCTA",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "139cd689-e3f6-4957-b095-9f16dcdf7e01",
+    "question": "¿En qué estado debe estar el ticket Jira de mi feature si la quiero desplegar?",
+    "options": [
+      {
+        "text": "Ready to Deploy",
+        "isCorrect": false
+      },
+      {
+        "text": "Pending feature integration",
+        "isCorrect": false
+      },
+      {
+        "text": "Under Construction",
+        "isCorrect": true
+      },
+      {
+        "text": "Designing component",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "d6c225eb-d4c5-44b6-86dd-8d2b94cc869a",
+    "question": "Para poder crear un nuevo componente APX hay que",
+    "options": [
+      {
+        "text": "Solicitar a través de JIRA Global la creación de un nuevo recurso, seleccionando \"APX Component Request\"",
+        "isCorrect": true
+      },
+      {
+        "text": "Enviar un correo a APX Global, indicando los datos del componente a certificar",
+        "isCorrect": false
+      },
+      {
+        "text": "Solicitar a través de JIRA Global la creación de un nuevo recurso, seleccionando \"New APX\"",
+        "isCorrect": false
+      },
+      {
+        "text": "Abrir un Remedy del tipo \"New APX\" a Arquitectura APX indicando los datos del componente a crear",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "97a0f15c-5b38-4d5a-bdcf-79981b70e118",
+    "question": "Si necesitamos visibilidad para poder consumir una librería APX de otra UUAA deberemos",
+    "options": [
+      {
+        "text": "Solicitarlo vía JIRA a APX Global",
+        "isCorrect": false
+      },
+      {
+        "text": "Darlo de alta nosotros mismos en la consola APX del entorno correspondiente",
+        "isCorrect": false
+      },
+      {
+        "text": "Solicitarlo vía Remedy a Arquitectura APX",
+        "isCorrect": false
+      },
+      {
+        "text": "Solicitarlo al equipo responsable de esa UUAA, el cual deberá asignar visibilidad en la consola de APX",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "a6311773-b5bd-4ba1-8eb8-2e772df013e0",
+    "question": "Hasta qué entorno puedo desplegar una rama develop",
+    "options": [
+      {
+        "text": "Desarrollo",
+        "isCorrect": false
+      },
+      {
+        "text": "Producción",
+        "isCorrect": false
+      },
+      {
+        "text": "OCTA",
+        "isCorrect": false
+      },
+      {
+        "text": "Integrado",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "9a8c3d07-b42b-4bc4-81f7-55a5756c9448",
+    "question": "Antes de subir mi componente a integrado debo asegurarme de",
+    "options": [
+      {
+        "text": "Pasa los test y el Sonar correctamente",
+        "isCorrect": false
+      },
+      {
+        "text": "Compila y se despliega correctamente en Desarrollo",
+        "isCorrect": true
+      },
+      {
+        "text": "Compila en Integrado",
+        "isCorrect": false
+      },
+      {
+        "text": "Compila en mi local y ha terminado el despliegue en Desarrollo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "90aeb9b9-307c-43bd-8cdd-7382ac92d7b3",
+    "question": "Las principales partes que podemos diferenciar en un componente APX Online son",
+    "options": [
+      {
+        "text": "Un componente APX no se divide en partes",
+        "isCorrect": false
+      },
+      {
+        "text": "Utilidades y conectores",
+        "isCorrect": false
+      },
+      {
+        "text": "DTO, Librería y Transacción",
+        "isCorrect": true
+      },
+      {
+        "text": "Librería, Conectores y Utilidades",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "d55b1f99-10eb-467d-9674-12402758a847",
+    "question": "En caso de que un componente se quede en estado \"Active but not exposing service\", deberemos",
+    "options": [
+      {
+        "text": "Revisar los test unitarios, ya que ese error se produce cuando algún test falla",
+        "isCorrect": false
+      },
+      {
+        "text": "Revisar en Atenea las ejecuciones, para ver los errores que se producen al ejecutar",
+        "isCorrect": false
+      },
+      {
+        "text": "Revisar el despliegue en Kibana, para ver la causa de que no levante el servicio",
+        "isCorrect": true
+      },
+      {
+        "text": "Hacer un mvn clean install en local y volver a subir el código",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "e7763cff-41ed-478d-819f-28506442829c",
+    "question": "¿Que componentes no tienen ninguna lógica comercial?",
+    "options": [
+      {
+        "text": "JOB",
+        "isCorrect": false
+      },
+      {
+        "text": "DTO",
+        "isCorrect": true
+      },
+      {
+        "text": "Librería",
+        "isCorrect": false
+      },
+      {
+        "text": "Transacción",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "84699db2-d46f-413c-a171-d1b52cdf0463",
+    "question": "En una transacción, los campos de entrada y salida se definen en",
+    "options": [
+      {
+        "text": "En la clase principal Main.java",
+        "isCorrect": false
+      },
+      {
+        "text": "En una transacción no se definen campos de entrada y salida, se definen en el DTO",
+        "isCorrect": false
+      },
+      {
+        "text": "En el fields.json localizado en la carpeta resources del proyecto",
+        "isCorrect": false
+      },
+      {
+        "text": "El XML de la transacción, el cual debe rellenarse mediante apx cli",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "a8f8dd93-5a0f-434e-aec4-5794673ef755",
+    "question": "¿Qué componente no hace falta que pase la cobertura de Sonar?",
+    "options": [
+      {
+        "text": "Todos los componentes necesitan pasar la cobertura",
+        "isCorrect": false
+      },
+      {
+        "text": "DTO",
+        "isCorrect": true
+      },
+      {
+        "text": "Librería",
+        "isCorrect": false
+      },
+      {
+        "text": "Transacción",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "eed2125e-742e-4317-877c-536fd43201bc",
+    "question": "Cuando estamos creando un nuevo componente, donde se definen los métodos, campos de entrada y salida, errores, etc... que va a albergar el mismo",
+    "options": [
+      {
+        "text": "Rellenando las Hojas Excel Globales APX",
+        "isCorrect": true
+      },
+      {
+        "text": "Esta labor recae sobre Arquitectura APX, a los cuales habrá que enviar un correo con esta información previamente",
+        "isCorrect": false
+      },
+      {
+        "text": "Solicitándolo a través de JIRA Global, mediante la opción \"Send APX Information\"",
+        "isCorrect": false
+      },
+      {
+        "text": "Rellenando en el catálogo APX los datos del nuevo componente",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "2eacb2ad-332b-47b0-8e09-46b1f1cb51bf",
+    "question": "¿Qué mínimo de cobertura en Sonar debe tener un componente?",
+    "options": [
+      {
+        "text": "75%",
+        "isCorrect": false
+      },
+      {
+        "text": "80%",
+        "isCorrect": true
+      },
+      {
+        "text": "70%",
+        "isCorrect": false
+      },
+      {
+        "text": "85%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "ce3f63d1-8be2-4bf2-9d56-96a3a481d698",
+    "question": "¿Desde qué componente puedo realizar acceso a base de datos en APX online?",
+    "options": [
+      {
+        "text": "Transacción",
+        "isCorrect": false
+      },
+      {
+        "text": "Librería",
+        "isCorrect": true
+      },
+      {
+        "text": "DTO",
+        "isCorrect": false
+      },
+      {
+        "text": "Todas las anteriores",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "de69f4e0-d4b0-4719-9c89-32061fcbd0b7",
+    "question": "La rama release, ¿desde que rama sale?",
+    "options": [
+      {
+        "text": "Feature",
+        "isCorrect": false
+      },
+      {
+        "text": "HotFix",
+        "isCorrect": false
+      },
+      {
+        "text": "BugFix",
+        "isCorrect": false
+      },
+      {
+        "text": "Develop",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "f4452a27-b742-4aec-822e-154415a638d3",
+    "question": "¿Se pueden excepcionar los DTO para excluir la cobertura de Sonar?",
+    "options": [
+      {
+        "text": "Verdadero",
+        "isCorrect": true
+      },
+      {
+        "text": "Falso",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "cfc32a2f-587a-41b6-ba17-af6ecdbcdd06",
+    "question": "Marca la opción INCORRECTA en cuanto a la tecnología APX se refiere:",
+    "options": [
+      {
+        "text": "Actúa como una extensión de la platform Mainframe",
+        "isCorrect": false
+      },
+      {
+        "text": "Ayuda a reducir el uso del Mainframe",
+        "isCorrect": false
+      },
+      {
+        "text": "Soporta la lógica de las aplicaciones que se adaptan a esta platform",
+        "isCorrect": false
+      },
+      {
+        "text": "Basada en tecnologías de codigo cerrado",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "4f46d46d-6989-419f-8cea-e41b17bbd69d",
+    "question": "¿Como se solicta que nos modifiquen el nivel de logs en Atenea?",
+    "options": [
+      {
+        "text": "Mediante el Release Manager",
+        "isCorrect": false
+      },
+      {
+        "text": "Mediante Jira",
+        "isCorrect": true
+      },
+      {
+        "text": "Mediante la Consola de operaciones APX",
+        "isCorrect": false
+      },
+      {
+        "text": "Mediante correo a Arquitectura APX",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "de0d652a-42c6-4e73-8332-c719ee35769e",
+    "question": "¿Qué tipos de Logs se muestran en Producción?",
+    "options": [
+      {
+        "text": "ERROR",
+        "isCorrect": true
+      },
+      {
+        "text": "INFO, ERROR",
+        "isCorrect": false
+      },
+      {
+        "text": "INFO, WARNING, ERROR",
+        "isCorrect": false
+      },
+      {
+        "text": "WARNING, ERROR",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "3691b660-1dd5-4705-a32c-329b0d4dd666",
+    "question": "¿Dónde encontramos el archivo XML que establece los parámetros para la transacción en la estructura del proyecto generado (Skeleton)?",
+    "options": [
+      {
+        "text": "src/test/resources",
+        "isCorrect": false
+      },
+      {
+        "text": "src/test/java",
+        "isCorrect": false
+      },
+      {
+        "text": "src/main/java",
+        "isCorrect": false
+      },
+      {
+        "text": "src/main/resources",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "f891ba14-1f38-466b-b48b-b92c0418ae55",
+    "question": "¿En qué entornos se puede desplegar la rama feature?",
+    "options": [
+      {
+        "text": "Desarrollo, Integrado y Octa",
+        "isCorrect": false
+      },
+      {
+        "text": "Desarrollo, integrado y Producción",
+        "isCorrect": false
+      },
+      {
+        "text": "Desarrollo e Integrado",
+        "isCorrect": true
+      },
+      {
+        "text": "En todos los entornos",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "53186479-6c3d-4ca8-ab12-efe518891ed4",
+    "question": "Si queremos realizar una consulta a una base de datos Oracle desde nuestro APX, deberemos utilizar",
+    "options": [
+      {
+        "text": "La utilidad APX de JDBC",
+        "isCorrect": true
+      },
+      {
+        "text": "La librería JPA",
+        "isCorrect": false
+      },
+      {
+        "text": "La librería de Oracle para proyectos Spring",
+        "isCorrect": false
+      },
+      {
+        "text": "La utilidad APX de IMS connector",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "757c0e1e-be5a-4576-8d10-6688eda8f9d9",
+    "question": "¿Qué significa si una transacción esta en una Zona 00?",
+    "options": [
+      {
+        "text": "Transacciones asíncronas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Transacciones críticas de alto rendimiento. Las transacciones que son muy críticas en Producción, deben ser monitoreadas de cerca y no pueden ser obstaculizadas por la ejecución de nada más. Como ejemplo, las transacciones que se ejecutan desde Granting Ticket.",
+        "isCorrect": true
+      },
+      {
+        "text": "Transacciones con \"Altas Dependencias\". Transacciones APX estándar que tienen una gran cantidad de dependencias (más de 10 rutinas o dtos).",
+        "isCorrect": false
+      },
+      {
+        "text": "Zona \"En Observación\". Transacciones que aún no tienen zona de ejecución, porque es una transacción nueva y necesita ser catalogada correctamente.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "ec41c050-6c53-4860-ba37-ff7113928a66",
+    "question": "Al ejecutar nuestros componentes APX, en caso de error, ¿dónde tenemos que ir a ver las trazas?",
+    "options": [
+      {
+        "text": "Consola de Operaciones APX",
+        "isCorrect": false
+      },
+      {
+        "text": "Felix",
+        "isCorrect": false
+      },
+      {
+        "text": "Atenea",
+        "isCorrect": true
+      },
+      {
+        "text": "Kibana",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "bb2f81f5-1471-4555-828b-ed15f3a1a2b8",
+    "question": "¿Con qué versión se crea un componente nuevo?",
+    "options": [
+      {
+        "text": "0.1.0-SNAPSHOT",
+        "isCorrect": true
+      },
+      {
+        "text": "0.0.0",
+        "isCorrect": false
+      },
+      {
+        "text": "0.0.0-SNAPSHOT",
+        "isCorrect": false
+      },
+      {
+        "text": "0.1.0",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "0c39b988-5fe0-4946-9df5-ca2999bfc30d",
+    "question": "¿Cuál de los siguientes no es un conector de apx?",
+    "options": [
+      {
+        "text": "Api-connector",
+        "isCorrect": false
+      },
+      {
+        "text": "MongoDB-connector",
+        "isCorrect": false
+      },
+      {
+        "text": "Rest-connector",
+        "isCorrect": true
+      },
+      {
+        "text": "IMS-connect",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "11eb3c52-8e6d-4907-987e-1dfd6d749c3f",
+    "question": "Cuando compilamos una rama feature de un DTO, los cambios que haya en ella se despliegan en Artifactory para poder ser utilizados por otras librerías",
+    "options": [
+      {
+        "text": "Falso. Hay que mergear master a la rama feature previamente a la compilación de feature.",
+        "isCorrect": false
+      },
+      {
+        "text": "Falso. Hay que compilar la rama develop",
+        "isCorrect": true
+      },
+      {
+        "text": "Falso. Para que se desplieguen los cambios hay que usar el comando -deploy",
+        "isCorrect": false
+      },
+      {
+        "text": "Verdadero. La rama feature siempre despliega los cambios al compilar.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "f0765726-925b-4ade-9a90-fd656f6158bc",
+    "question": "Para añadir una dependencia a una librería, ¿cuál es el comando correcto en APX cli?",
+    "options": [
+      {
+        "text": "apx del lib -c=\"010\" -d=\"Test of Librería\" -y",
+        "isCorrect": false
+      },
+      {
+        "text": "cli add lib -c=\"010\" -d=\"Test of Librería\" -y",
+        "isCorrect": false
+      },
+      {
+        "text": "apx add dto -c=\"010\" --domain=\"customer\" -d=\"Test of DTO\" --subpackage=\"\" --class-name=\"ExampleDTO\" -y",
+        "isCorrect": false
+      },
+      {
+        "text": "apx add dep -a TESTR001 -v 0.0.0 -y",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "3c54cd39-c8ef-4909-bef0-d8bc6f2c5ff9",
+    "question": "Para generar una librería nueva, utilizamos el comando apx init lib. Definimos la UUAA de 4 caracteres y el code biblioteca de 3 caracteres. ¿Cuál es el carácter fijo que define que es una librería?",
+    "options": [
+      {
+        "text": "C",
+        "isCorrect": false
+      },
+      {
+        "text": "R",
+        "isCorrect": true
+      },
+      {
+        "text": "T",
+        "isCorrect": false
+      },
+      {
+        "text": "X",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "db5d91ec-2aef-41c7-b4b7-16c9941fcea5",
+    "question": "El encargado de crear un nuevo recurso es..",
+    "options": [
+      {
+        "text": "Gobierno",
+        "isCorrect": false
+      },
+      {
+        "text": "El developer",
+        "isCorrect": true
+      },
+      {
+        "text": "El responsable de la UUAA",
+        "isCorrect": false
+      },
+      {
+        "text": "Arquitectura",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "0ae80387-6df9-446a-9611-cbf68fe476f3",
+    "question": "¿Cuál es la forma correcta de dar visibilidad a otras bibliotecas para que puedan usar las tuyas?",
+    "options": [
+      {
+        "text": "visibility.UUAARNNN=AAAA,BBBBRNNN",
+        "isCorrect": false
+      },
+      {
+        "text": "visibility.UUAARNNN=*",
+        "isCorrect": false
+      },
+      {
+        "text": "visibility.UUAARNNN=AAAA,BBBB",
+        "isCorrect": false
+      },
+      {
+        "text": "Todas las anteriores",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "e07b77f8-646b-41ce-98fe-e30d02e79c18",
+    "question": "¿Es correcto realizar un Select * en mi código?",
+    "options": [
+      {
+        "text": "Sí, ya que necesito recuperar toda la información de esa tabla",
+        "isCorrect": false
+      },
+      {
+        "text": "No, ya que no podré subir mi código si tengo Select *",
+        "isCorrect": true
+      },
+      {
+        "text": "Da igual si utilizo * o informo cada columna, el resultado es el mismo",
+        "isCorrect": false
+      },
+      {
+        "text": "Ninguna de las anteriores es correcta",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "18caa1a5-4917-4ab5-a9db-13cfc97fb542",
+    "question": "¿Cómo se gestiona la solicitud de asincronismo?",
+    "options": [
+      {
+        "text": "En el mismo ticket de diseño de componente Gobierno Jira",
+        "isCorrect": true
+      },
+      {
+        "text": "Por correo electrónico a APX España o al equipo de Coordinación de Entornos Previos",
+        "isCorrect": false
+      },
+      {
+        "text": "Informando al Equipo de Arquitectura de Gobierno de España",
+        "isCorrect": false
+      },
+      {
+        "text": "Enviando en el ticket Jira la información requerida por el equipo de gobierno",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "b27d91e9-cc3e-40ee-98c9-e4fad4e53163",
+    "question": "Cuales son los entornos que existen en APX",
+    "options": [
+      {
+        "text": "Desarrollo, OCTA, Aceptación de usuario y Producción",
+        "isCorrect": false
+      },
+      {
+        "text": "Desarrollo, Integrado y Producción",
+        "isCorrect": false
+      },
+      {
+        "text": "Desarrollo, Integrado, OCTA, Aceptación de usuario y Producción",
+        "isCorrect": true
+      },
+      {
+        "text": "Desarrollo, Integrado, OCTA y Producción",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "fa1f073c-09f7-48bd-95d2-596f9085ef1d",
+    "question": "En los estado de jira, ¿quién es el encargado cuando esta en Pending Release Canidadate Validation?",
+    "options": [
+      {
+        "text": "Release Manager",
+        "isCorrect": false
+      },
+      {
+        "text": "Developer",
+        "isCorrect": true
+      },
+      {
+        "text": "Octa",
+        "isCorrect": false
+      },
+      {
+        "text": "Ninguno de los anteriores",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "3829a49f-9b8a-456c-b3fa-8c01fcc7dce0",
+    "question": "Hasta qué entorno puedo desplegar una rama develop",
+    "options": [
+      {
+        "text": "Integrado",
+        "isCorrect": true
+      },
+      {
+        "text": "Producción",
+        "isCorrect": false
+      },
+      {
+        "text": "Desarrollo",
+        "isCorrect": false
+      },
+      {
+        "text": "OCTA",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "e1b1e333-f405-4385-8e5e-834ce014dc8c",
+    "question": "¿De qué se encarga la arquitectura APX Batch R3?",
+    "options": [
+      {
+        "text": "Solo administra los trabajos, no los ejecuta.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo ejecuta los trabajos, no los administra.",
+        "isCorrect": false
+      },
+      {
+        "text": "De administrar y ejecutar los trabajos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ninguna de las anteriores.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "4012b6ae-2f64-41a5-bcac-a28b2f009c7a",
+    "question": "Cuando vemos un componente del tipo UUAAC001, estamos hablando de",
+    "options": [
+      {
+        "text": "Un job",
+        "isCorrect": false
+      },
+      {
+        "text": "Una transacción",
+        "isCorrect": false
+      },
+      {
+        "text": "Una librería",
+        "isCorrect": false
+      },
+      {
+        "text": "Un DTO",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "9e47517f-60b6-4c34-b2d0-c9898848741a",
+    "question": "¿En que estado tiene que aparece los componentes en la Consola de Operaciones APX para saber que estan correctamente desplegados?",
+    "options": [
+      {
+        "text": "ACTIVE but not exposing service",
+        "isCorrect": false
+      },
+      {
+        "text": "ACTIVE",
+        "isCorrect": true
+      },
+      {
+        "text": "NOT CONTENT",
+        "isCorrect": false
+      },
+      {
+        "text": "INSTALLED",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "fdb74e92-ce97-4ef9-931a-bd198b9f84e5",
+    "question": "¿Qué tipos de Logs se muestran en Integrado?",
+    "options": [
+      {
+        "text": "INFO, WARNING, ERROR.",
+        "isCorrect": true
+      },
+      {
+        "text": "DEBUG, INFO, WARNING, ERROR",
+        "isCorrect": false
+      },
+      {
+        "text": "INFO, ERROR",
+        "isCorrect": false
+      },
+      {
+        "text": "WARNING, ERROR",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "098ca9cc-1276-418d-a16e-00150e3acd04",
+    "question": "¿En qué estándar temporal tengo que realizar el parseo de una fecha?",
+    "options": [
+      {
+        "text": "Según lo que se haya definido con Gobierno",
+        "isCorrect": false
+      },
+      {
+        "text": "Da igual",
+        "isCorrect": false
+      },
+      {
+        "text": "CEST",
+        "isCorrect": false
+      },
+      {
+        "text": "UTC",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "07f87c0b-72e8-43fd-befc-80961f417228",
+    "question": "El manejo de errores se gestiona a través de...",
+    "options": [
+      {
+        "text": "Jenkins",
+        "isCorrect": false
+      },
+      {
+        "text": "Consola de Operación APX",
+        "isCorrect": true
+      },
+      {
+        "text": "Se dan de alta en bitbucket",
+        "isCorrect": false
+      },
+      {
+        "text": "Se solicita por JIRA",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "3b7b371c-c39f-469a-992c-7307e9345a9f",
+    "question": "¿A quien tengo que transferir la propiedad de las plantillas de los componentes APX?",
+    "options": [
+      {
+        "text": "Al responsable del proyecto",
+        "isCorrect": false
+      },
+      {
+        "text": "No es necesario transferirla",
+        "isCorrect": false
+      },
+      {
+        "text": "A algún miembro del equipo de gobierno global",
+        "isCorrect": true
+      },
+      {
+        "text": "A cualquier persona del proyecto que necesite acceso",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "31fc413c-4b04-48c7-b89e-2eccc1e3cde8",
+    "question": "¿En qué estándar temporal tengo que realizar el parseo de una fecha?",
+    "options": [
+      {
+        "text": "CEST",
+        "isCorrect": false
+      },
+      {
+        "text": "UTC",
+        "isCorrect": true
+      },
+      {
+        "text": "Da igual",
+        "isCorrect": false
+      },
+      {
+        "text": "Según lo que se haya definido con Gobierno",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "56d4a3b2-c4b1-4586-a931-59081c9d1252",
+    "question": "¿Que se define como un conjunto de operaciones que se ejecutan como un solo elemento?",
+    "options": [
+      {
+        "text": "Transacción",
+        "isCorrect": true
+      },
+      {
+        "text": "Librería",
+        "isCorrect": false
+      },
+      {
+        "text": "DTO",
+        "isCorrect": false
+      },
+      {
+        "text": "Todas son correctas",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "ee78dffa-13b7-4ebf-8a8e-58d748569340",
+    "question": "La rama bugfix sirve para",
+    "options": [
+      {
+        "text": "Corregir una rama feature, solventando así posibles problemas de compilación",
+        "isCorrect": false
+      },
+      {
+        "text": "Corregir un error en la rama develop, sin afectar al resto de features existentes",
+        "isCorrect": false
+      },
+      {
+        "text": "Corregir una rama release que aún no se ha desplegado en Producción",
+        "isCorrect": true
+      },
+      {
+        "text": "Corregir la rama master, pudiendo aumentar o no la versión del componente",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "e6508c0e-d633-46e7-8447-5ff1f8f7943c",
+    "question": "¿Desde donde se ejecuta un job en APX Batch?",
+    "options": [
+      {
+        "text": "Consola de operaciones APX",
+        "isCorrect": true
+      },
+      {
+        "text": "Archivo .jar",
+        "isCorrect": false
+      },
+      {
+        "text": "Thunder Cliente",
+        "isCorrect": false
+      },
+      {
+        "text": "IDE",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "fe459479-c037-41ed-91e5-4669fd1b64de",
+    "question": "Hasta qué entorno puedo desplegar una rama bugfix",
+    "options": [
+      {
+        "text": "Integrado",
+        "isCorrect": true
+      },
+      {
+        "text": "Desarrollo",
+        "isCorrect": false
+      },
+      {
+        "text": "OCTA",
+        "isCorrect": false
+      },
+      {
+        "text": "Producción",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "b3f0a4ca-992c-4c9d-9918-97cd69db6bdb",
+    "question": "¿Cuál de estas excepciones es de las permitidas de capturar en un try/catch?",
+    "options": [
+      {
+        "text": "com.bbva.apx.exception.business.BusinessException",
+        "isCorrect": true
+      },
+      {
+        "text": "java.lang.NumberFormatException",
+        "isCorrect": false
+      },
+      {
+        "text": "java.lang.Exception",
+        "isCorrect": false
+      },
+      {
+        "text": "java.io.IOException",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "757909dd-ca0b-46d9-8ba8-c9931b456179",
+    "question": "Configuración de la consola de operaciones APX. Para importar claves de configuración, se debe modificar el archivo JSON descargado previamente. En el caso de querer modificar se debe cambiar el valor \"acción\" a:",
+    "options": [
+      {
+        "text": "M",
+        "isCorrect": false
+      },
+      {
+        "text": "C",
+        "isCorrect": false
+      },
+      {
+        "text": "D",
+        "isCorrect": false
+      },
+      {
+        "text": "U",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "c5080fb8-60f8-459a-a90b-fcc4a3a01380",
+    "question": "¿En qué esta basado el API Connector?",
+    "options": [
+      {
+        "text": "En la clase RestTemplate de Spring",
+        "isCorrect": true
+      },
+      {
+        "text": "En las clase ASO",
+        "isCorrect": false
+      },
+      {
+        "text": "En la clase Singleton",
+        "isCorrect": false
+      },
+      {
+        "text": "En niguna de las anterirores",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "08d51743-0a79-4c96-826c-6c0962ee8c65",
+    "question": "¿Cuál es el estado correcto del ticket Jira para poder implantar en Producción?",
+    "options": [
+      {
+        "text": "Pending Production Deployment",
+        "isCorrect": false
+      },
+      {
+        "text": "Ready to Integrate",
+        "isCorrect": false
+      },
+      {
+        "text": "Deployed",
+        "isCorrect": false
+      },
+      {
+        "text": "Ready to production deployment",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "597e8d9d-b56a-46e0-b7eb-158db056ddc8",
+    "question": "Como regla general, ¿Se pueden utilizar librerías de terceros?",
+    "options": [
+      {
+        "text": "Si",
+        "isCorrect": false
+      },
+      {
+        "text": "Comunicándolo a Arquitectura APX para analizar el caso",
+        "isCorrect": true
+      },
+      {
+        "text": "Si se abre un JIRA a Gobierno para analizar el caso",
+        "isCorrect": false
+      },
+      {
+        "text": "Nunca",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "e7afdf43-7b7b-4e06-b4f8-6d4137efe2f4",
+    "question": "¿Cómo se añaden parametros de entrada a la Copy de una transaccion APX?",
+    "options": [
+      {
+        "text": "apx del in --root=\"/\" --tag=\"parameter\" -n=\"parameterIn\" -y",
+        "isCorrect": false
+      },
+      {
+        "text": "apx show in",
+        "isCorrect": false
+      },
+      {
+        "text": "apx add out --root=\"/\" --tag=\"list\" -n=\"names\" --sub-tag=\"parameter\" -t=\"String\" -l=50 -y",
+        "isCorrect": false
+      },
+      {
+        "text": "apx add in --root=\"/\" --tag=\"parameter\" -n=\"PARAMETER-IN\" -t=\"String\" -l=100 -m=\"false\" -y",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "35e5d3ec-b57c-45ad-b974-730ead494667",
+    "question": "Una vez se ha creado la hoja APX y queremos que validen el diseño, el JIRA pasa al estado...",
+    "options": [
+      {
+        "text": "Validating Design",
+        "isCorrect": true
+      },
+      {
+        "text": "Under Construction",
+        "isCorrect": false
+      },
+      {
+        "text": "Reviewing Quality",
+        "isCorrect": false
+      },
+      {
+        "text": "Pending Profiling",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "fa26a6be-b27c-499e-92d4-19a1181c7b03",
+    "question": "¿Donde se pueden ver los registros y rastros de nuevas ejecuciones?",
+    "options": [
+      {
+        "text": "Atenea",
+        "isCorrect": true
+      },
+      {
+        "text": "Consola Ether",
+        "isCorrect": false
+      },
+      {
+        "text": "Consola de Operaciones APX",
+        "isCorrect": false
+      },
+      {
+        "text": "Jenkins",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "873ef1f5-6a80-4470-aaab-37dbea59c4b6",
+    "question": "¿Cuántas utilidades de Oracle hay en APX Bacth R3?",
+    "options": [
+      {
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "text": "2",
+        "isCorrect": true
+      },
+      {
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "text": "7",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "7fc496ff-519c-42a7-bd81-f36308675c79",
+    "question": "La arquitectura bancaria de ejecución por lotes en APX se basa en:",
+    "options": [
+      {
+        "text": "LRBA",
+        "isCorrect": false
+      },
+      {
+        "text": "APX Batch",
+        "isCorrect": false
+      },
+      {
+        "text": "Spring Batch",
+        "isCorrect": true
+      },
+      {
+        "text": "Nacar Batch",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "40da93d2-7f16-4d51-ae24-76097352ae1f",
+    "question": "Qué obtenemos al ejecutar executeGetChannelName",
+    "options": [
+      {
+        "text": "La descripción de canal-medio-servicio",
+        "isCorrect": false
+      },
+      {
+        "text": "Sólo la descripción de canal",
+        "isCorrect": true
+      },
+      {
+        "text": "Modificamos el canal a otro que introduzcamos en la sentencia ()",
+        "isCorrect": false
+      },
+      {
+        "text": "Esa sentencia NUNCA se puede ejecutar",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "bd36b866-595c-4f00-b1ad-ed13fffacf42",
+    "question": "Hay dos tipos de unidades de implementación: en línea y por lotes. ¿Qué significa por línea?",
+    "options": [
+      {
+        "text": "pueden contener DTOs y bibliotecas",
+        "isCorrect": false
+      },
+      {
+        "text": "pueden contener transacciones y DTO.",
+        "isCorrect": false
+      },
+      {
+        "text": "pueden contener transacciones y bibliotecas",
+        "isCorrect": false
+      },
+      {
+        "text": "pueden contener transacciones, DTO y bibliotecas",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "1189ebad-a330-4053-9b25-8fb262be7d00",
+    "question": "¿Se pueden generar errores funcionales nuevos? ¿Cómo lo puede gestionar cada aplicacion?",
+    "options": [
+      {
+        "text": "Dándolo de alta en la consola",
+        "isCorrect": true
+      },
+      {
+        "text": "Solicitándolo via Jira",
+        "isCorrect": false
+      },
+      {
+        "text": "Solicitándolo via mail al equipo de Soporte APX",
+        "isCorrect": false
+      },
+      {
+        "text": "No se pueden generar nuevos errores, salvo excepciones que hay que verlas con Arquitectura",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "6c9bf35d-a9d7-43a8-af11-e42d9b68fa2d",
+    "question": "¿Qué tipos de despliegues NO existe en APX respecto de las librerías?",
+    "options": [
+      {
+        "text": "Dual",
+        "isCorrect": false
+      },
+      {
+        "text": "Online",
+        "isCorrect": false
+      },
+      {
+        "text": "Batch",
+        "isCorrect": false
+      },
+      {
+        "text": "Seleccionable en cada despliegue",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "fc599a1e-1bed-4424-b048-1ce9f87a68d2",
+    "question": "Modificación express de un componente APX. A cual de los siguientes componentes NO aplica",
+    "options": [
+      {
+        "text": "Transacciones APX",
+        "isCorrect": false
+      },
+      {
+        "text": "Infraestructura de librerias compartida entre transacciones",
+        "isCorrect": false
+      },
+      {
+        "text": "DTOS comunes entres librerias/transacciones",
+        "isCorrect": false
+      },
+      {
+        "text": "Servicios ASO llamados desde transacciones APX",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "e7a5e875-1b61-4640-b09d-bfe7bfa13218",
+    "question": "¿Qué es Apache Maven?",
+    "options": [
+      {
+        "text": "un sistema de control de versiones distribuido gratuito",
+        "isCorrect": false
+      },
+      {
+        "text": "una herramienta de comprensión y gestión de proyectos de software",
+        "isCorrect": true
+      },
+      {
+        "text": "una implementación gratuita y de código abierto de la platform Java",
+        "isCorrect": false
+      },
+      {
+        "text": "un software diseñado para crear proyectos tipo APX",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "fb9c36b9-251e-4cc6-9107-e14d23956ab2",
+    "question": "¿Cuánto tiempo pasa desde que un componente se usa por última vez hasta que se desactiva?",
+    "options": [
+      {
+        "text": "13 meses",
+        "isCorrect": true
+      },
+      {
+        "text": "3 meses",
+        "isCorrect": false
+      },
+      {
+        "text": "1 mes",
+        "isCorrect": false
+      },
+      {
+        "text": "10 meses",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "7e9b8088-d36d-43a3-bb2d-b36047fea59c",
+    "question": "¿Cuándo se crea el repositorio de Bitbucket al generar un componente nuevo?",
+    "options": [
+      {
+        "text": "Durante el proceso que se genera al pulsar Add resource en la consola",
+        "isCorrect": false
+      },
+      {
+        "text": "Al realizar el push del componente",
+        "isCorrect": false
+      },
+      {
+        "text": "Durante el proceso que se genera al pulsar Finalizar en la consola",
+        "isCorrect": true
+      },
+      {
+        "text": "Al realizar el despliegue del componente",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "d91cd36e-2a9e-456c-aaf7-d207eef64422",
+    "question": "Según el modelo unificado de ramas APX, qué es una rama developed",
+    "options": [
+      {
+        "text": "Rama donde se solucionan los bugs",
+        "isCorrect": false
+      },
+      {
+        "text": "Rama con la release de una versión de software",
+        "isCorrect": false
+      },
+      {
+        "text": "Rama donde se realizan los evolutivos de nuestra versión, su origen es la rama develop",
+        "isCorrect": false
+      },
+      {
+        "text": "Rama principal de desarrollo, de esta rama nacen y se integran las ramas feature",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "d4d20e10-7478-4970-b8f4-580cbc95f304",
+    "question": "Usos Titan Client APX Utility y Titan Service (Ether Connectors Service)",
+    "options": [
+      {
+        "text": "Se deben solicitar varios permisos al equipo Ether o APX",
+        "isCorrect": true
+      },
+      {
+        "text": "Ya no se necesita solicitar permisos, está totalmente abierto",
+        "isCorrect": false
+      },
+      {
+        "text": "No se permite usar Titan en España",
+        "isCorrect": false
+      },
+      {
+        "text": "Se deben solictar permisos via Jira",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "630af06e-d1de-4b94-92e1-bc761cfc440e",
+    "question": "¿Qué tipo de filtro de Atenea es éste:  properties.hostname= \"lppxo301*\"?",
+    "options": [
+      {
+        "text": "Filtro por instancia",
+        "isCorrect": true
+      },
+      {
+        "text": "Filtro por entorno",
+        "isCorrect": false
+      },
+      {
+        "text": "Filtro por was",
+        "isCorrect": false
+      },
+      {
+        "text": "Filtro por error técnico",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "01159533-eaea-4a72-a058-9b1d7b0e0f3b",
+    "question": "¿Qué días son las ventanas de APX de subida a Producción?",
+    "options": [
+      {
+        "text": "Miércoles, viernes y domingos de calendada",
+        "isCorrect": false
+      },
+      {
+        "text": "Lunes, viernes y domingos de calendada",
+        "isCorrect": false
+      },
+      {
+        "text": "Martes, jueves y domingos de calendada",
+        "isCorrect": false
+      },
+      {
+        "text": "Martes, viernes y domingos de calendada",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "d4d7f480-a5d4-4306-aaa1-918f3d833f7a",
+    "question": "La rama feature...",
+    "options": [
+      {
+        "text": "Tiene versión ‘-SNAPSHOT’, sube jares a Artifactory y es permanente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tiene versión ‘-SNAPSHOT’, NO sube jares a Artifactory y es efímera",
+        "isCorrect": true
+      },
+      {
+        "text": "Tiene versión final (X.Y.Z), sube jares a Artifactory y es semi-permanente",
+        "isCorrect": false
+      },
+      {
+        "text": "Su origen es la rama release, se integra en ésta mediante pull request",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "850eede7-4677-48db-9c8d-664ccbbbcb7a",
+    "question": "¿Que significa la anotación @Mock?",
+    "options": [
+      {
+        "text": "Indica a Junit que debe usar los métodos setX para establecer simulacros",
+        "isCorrect": false
+      },
+      {
+        "text": "Indica que el método se ejecutará antes de cada @ Test en la clase de prueba",
+        "isCorrect": false
+      },
+      {
+        "text": "Indica a JUnit que la propiedad que usa esta anotación es un simulacro",
+        "isCorrect": true
+      },
+      {
+        "text": "Indica a JUnit que el método se ejecutará al finalizar cada @ Test",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "62c25f0f-9bd8-4302-8694-22ea6a5680f1",
+    "question": "La zona de ejecución APX 40 indica...",
+    "options": [
+      {
+        "text": "Transacciones en “Cuarentena”",
+        "isCorrect": false
+      },
+      {
+        "text": "Transacciones críticas de alto rendimiento",
+        "isCorrect": false
+      },
+      {
+        "text": "Transacciones asíncronas",
+        "isCorrect": false
+      },
+      {
+        "text": "Transacciones con “Altas Dependencias”",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "097d11a9-0297-4eac-a68d-ad092384f5ff",
+    "question": "¿Dónde añadimos los códigos de error funcionales que queremos mostrar en las trasacciones?",
+    "options": [
+      {
+        "text": "Se crea en las librerias",
+        "isCorrect": false
+      },
+      {
+        "text": "En fichero xml dentro del proyecto",
+        "isCorrect": false
+      },
+      {
+        "text": "En la Consola de operaciones APX",
+        "isCorrect": true
+      },
+      {
+        "text": "Ninguna de las anteriores es correcta",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "0b8f2650-4f24-423d-86ba-7c8f161a8dfa",
+    "question": "Cuando vemos un componente del tipo UUAAC001, estamos hablando de...",
+    "options": [
+      {
+        "text": "Un job",
+        "isCorrect": false
+      },
+      {
+        "text": "Una transacción",
+        "isCorrect": false
+      },
+      {
+        "text": "Una librería",
+        "isCorrect": false
+      },
+      {
+        "text": "Un DTO",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "e28fe3ca-bd20-4b86-9be6-9d7d6a0c04e9",
+    "question": "¿Qué realiza el método LOGGER.warn?",
+    "options": [
+      {
+        "text": "Imprime información con el máximo nivel de detalle",
+        "isCorrect": false
+      },
+      {
+        "text": "Imprime mensajes de error críticos que impiden que la aplicación funcione correctamente",
+        "isCorrect": false
+      },
+      {
+        "text": "Le permite imprimir datos informativos con detalles finos que son útiles para depurar la aplicación",
+        "isCorrect": false
+      },
+      {
+        "text": "Imprime avisos o fallos no críticos de la aplicación, que no impiden que la aplicación continúe su flujo",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "a732a5c1-4440-4515-b07d-50ad64a509e1",
+    "question": "Para añadir una dependencia a otra libreria, ¿cúal es el comando correcto en APX cli?",
+    "options": [
+      {
+        "text": "apx del lib -c=\"010\" -d=\"Test of Librería\" -y",
+        "isCorrect": false
+      },
+      {
+        "text": "apx add dto -c=\"010\" --domain=\"customer\" -d=\"Test of DTO\" --subpackage=\"\" --class-name=\"ExampleDTO\" -y",
+        "isCorrect": false
+      },
+      {
+        "text": "cli add lib -c=\"010\" -d=\"Test of Librería\" -y",
+        "isCorrect": false
+      },
+      {
+        "text": "apx add lib -c=\"010\" -d=\"Test of Librería\" -y",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "bab6cfde-aa93-4583-9cb2-5b998fcc4157",
+    "question": "¿Desde qué componente puedo realizar acceso a base de datos en APX online?",
+    "options": [
+      {
+        "text": "Transacción",
+        "isCorrect": false
+      },
+      {
+        "text": "DTO",
+        "isCorrect": false
+      },
+      {
+        "text": "Librería",
+        "isCorrect": true
+      },
+      {
+        "text": "Todas las anteriores",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "9833757e-08bd-4242-bda6-e85bae0cf00f",
+    "question": "¿Desde donde se ejecuta un job en APX Batch?",
+    "options": [
+      {
+        "text": "Thunder Client",
+        "isCorrect": false
+      },
+      {
+        "text": "IDE",
+        "isCorrect": false
+      },
+      {
+        "text": "Archivo .jar",
+        "isCorrect": false
+      },
+      {
+        "text": "Consola de operaciones",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "32ad8cfe-2c15-4327-b9ed-12bbc7ab6002",
+    "question": "¿Cuál es la herramienta oficial para trabajar con los componentes APX?",
+    "options": [
+      {
+        "text": "APX Libraries",
+        "isCorrect": false
+      },
+      {
+        "text": "APX CLI",
+        "isCorrect": true
+      },
+      {
+        "text": "APX Runner",
+        "isCorrect": false
+      },
+      {
+        "text": "APX Version",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "ff183351-84ae-4042-bed8-5cb347203615",
+    "question": "¿Qué se debe hacer cuando se quiere consumir una librería de otra UUAA?",
+    "options": [
+      {
+        "text": "Nada, las librerías se pueden consumir sin problema",
+        "isCorrect": false
+      },
+      {
+        "text": "Abrir un Jira a arquitectura apx",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "edf74b71-e503-48df-8975-4e2fc1954d1a",
+    "question": "¿Qué aplicación utilizamos si queremos ver logs y rastros de nuestras ejecuciones?",
+    "options": [
+      {
+        "text": "Sonar",
+        "isCorrect": false
+      },
+      {
+        "text": "Jenkins",
+        "isCorrect": false
+      },
+      {
+        "text": "Ether",
+        "isCorrect": false
+      },
+      {
+        "text": "Atenea",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "dec6cbd3-8d66-4802-b210-469e9f7b4083",
+    "question": "¿Qué es el complemento JACOCO?",
+    "options": [
+      {
+        "text": "Una biblioteca de gestión de bbdd Oracle",
+        "isCorrect": false
+      },
+      {
+        "text": "Una biblioteca para realizar tests unitarios",
+        "isCorrect": false
+      },
+      {
+        "text": "Una biblioteca de cobertura de código para Java",
+        "isCorrect": true
+      },
+      {
+        "text": "Ninguna de las anteriores",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "eaa5001b-e284-4305-ac4f-0652038a19a1",
+    "question": "¿Qué excepción, propia de APX, puede ser capturada y gestionada por las aplicaciones?",
+    "options": [
+      {
+        "text": "com.bbva.apx.exception.business.BusinessException",
+        "isCorrect": true
+      },
+      {
+        "text": "Exception",
+        "isCorrect": false
+      },
+      {
+        "text": "Todas las anteriores son correctas",
+        "isCorrect": false
+      },
+      {
+        "text": "Ninguna de las anteriores es correcta",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "53313482-f97e-4931-abf2-36009bda6085",
+    "question": "¿Cuándo puedo usar un carácter comodín en BBDD?",
+    "options": [
+      {
+        "text": "En el valor de las celdas. En las tablas está prohibido",
+        "isCorrect": false
+      },
+      {
+        "text": "En ninguno de los casos está permitido",
+        "isCorrect": true
+      },
+      {
+        "text": "Está permitido en cualquier caso",
+        "isCorrect": false
+      },
+      {
+        "text": "En el nombre de las tablas y de las columnas",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "ba97f48a-6a34-4524-9394-17e36e2c2ff5",
+    "question": "¿Cuál es el nivel de LOG en Integrado?",
+    "options": [
+      {
+        "text": "Solo ERROR",
+        "isCorrect": false
+      },
+      {
+        "text": "WARNING, ERROR",
+        "isCorrect": false
+      },
+      {
+        "text": "DEBUG, INFO, WARNING, ERROR",
+        "isCorrect": false
+      },
+      {
+        "text": "INFO, WARNING, ERROR",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "b9604ad0-6a16-4f38-8d62-b3d5f68ed064",
+    "question": "Hablando de \"Códigos de retorno de transacciones\"... el código EWR (“08”) significa",
+    "options": [
+      {
+        "text": "Rechazado + Código de error (sin reversión)",
+        "isCorrect": false
+      },
+      {
+        "text": "Rechazado + Código de error (con reversión)",
+        "isCorrect": true
+      },
+      {
+        "text": "Rechazado (Error fatal) + Código de error",
+        "isCorrect": false
+      },
+      {
+        "text": "Aceptar + Código de aviso",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "1ba3e797-d77e-4048-859c-28f6cbb20887",
+    "question": "¿Cuál es el único caso en el que se pueden informar los resolution optional?",
+    "options": [
+      {
+        "text": "En transacciones y jobs apx, siempre que sean los que se incluyen para levantar la arquitectura",
+        "isCorrect": false
+      },
+      {
+        "text": "En jobs apx, siempre que sean los que se incluyen para levantar la arquitectura",
+        "isCorrect": true
+      },
+      {
+        "text": "En librerías y jobs apx, siempre que sean los que se incluyen para levantar la arquitectura",
+        "isCorrect": false
+      },
+      {
+        "text": "En cualquier componente de tipo online",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "8f5ee59d-0f8c-46f2-9c12-c499498b9fc3",
+    "question": "La rama feature...",
+    "options": [
+      {
+        "text": "Tiene versión ‘-SNAPSHOT’, sube jares a Artifactory y es permanente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tiene versión ‘-SNAPSHOT’, NO sube jares a Artifactory y es efímera",
+        "isCorrect": true
+      },
+      {
+        "text": "Tiene versión final (X.Y.Z), sube jares a Artifactory y es semi-permanente",
+        "isCorrect": false
+      },
+      {
+        "text": "Su origen es la rama release, se integra en ésta mediante pull request",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "9294d55b-202f-4740-93dc-9f8f9d9b99e9",
+    "question": "Qué tipo de filtro de Atenea es éste:  properties.hostname= \"lppxo301*\"",
+    "options": [
+      {
+        "text": "Filtro por instancia",
+        "isCorrect": true
+      },
+      {
+        "text": "Filtro por entorno",
+        "isCorrect": false
+      },
+      {
+        "text": "Filtro por was",
+        "isCorrect": false
+      },
+      {
+        "text": "Filtro por error técnico",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "9efb106c-c838-4f11-a1df-7d0a87569002",
+    "question": "Cómo dar marcha atrás en la consola Ether en entornos previos",
+    "options": [
+      {
+        "text": "Se redespliega la anterior rama que estuviera desplegada.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se solicita mediante un mail al buzón de Servicios",
+        "isCorrect": false
+      },
+      {
+        "text": "Mediante el botón Rollback de la consola",
+        "isCorrect": false
+      },
+      {
+        "text": "En EEPP no se puede dar marcha atrás",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "de1d9103-e49d-4fda-b213-ba2d2dbe9d32",
+    "question": "¿Cuándo se crea el repositorio de Bitbucket al generar un componente nuevo?",
+    "options": [
+      {
+        "text": "Durante el proceso que se genera al pulsar Add resource en la consola",
+        "isCorrect": false
+      },
+      {
+        "text": "Al realizar el push del componente",
+        "isCorrect": false
+      },
+      {
+        "text": "Durante el proceso que se genera al pulsar Finalizar en la consola",
+        "isCorrect": true
+      },
+      {
+        "text": "Al realizar el despliegue del componente",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "ea755a50-62d0-4e15-92fe-4c24f22079ad",
+    "question": "¿Qué se debe hacer cuando se quiere consumir una librería de otra UUAA?",
+    "options": [
+      {
+        "text": "Avisar al aplicativo mediante un correo al responsable de la UUAA",
+        "isCorrect": true
+      },
+      {
+        "text": "Nada, las librerías se pueden consumir sin problema",
+        "isCorrect": false
+      },
+      {
+        "text": "Abrir un Jira a arquitectura apx",
+        "isCorrect": false
+      },
+      {
+        "text": "Clonar la libreria de la otra UUAA en la UUAA llamante",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "a019bee2-4aee-420c-8eba-e79653aeec60",
+    "question": "¿Cómo se debe nombrar un método que se va a sobrecargar?",
+    "options": [
+      {
+        "text": "Deben ser nombres funcionales sin incluir caracteres raros(paréntesis, números,",
+        "isCorrect": true
+      },
+      {
+        "text": "Es texto libre, cualquier nombre es válido",
+        "isCorrect": false
+      },
+      {
+        "text": "Deben ser nombres funcionales incluyendo caracteres raros (paréntesis, números,",
+        "isCorrect": false
+      },
+      {
+        "text": "Deben ser nombres NO funcionales con cualquier tipo de caracter",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "eed0181c-13b7-4b2b-93f7-747c231a0c4b",
+    "question": "¿Cómo sube la versión de un componente a artifactory de Producción?",
+    "options": [
+      {
+        "text": "Al desplegar mi componente en Producción",
+        "isCorrect": false
+      },
+      {
+        "text": "Enviando un correo a Arquitectura APX",
+        "isCorrect": false
+      },
+      {
+        "text": "Al compilar la rama release por primera vez en jenkins",
+        "isCorrect": true
+      },
+      {
+        "text": "La sube el equipo de arquitectura apx",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "c6915208-d2f8-4308-ab29-197d964de666",
+    "question": "Cuando se puede llamar a servicios ASO desde APX",
+    "options": [
+      {
+        "text": "Siempre que el diseño lo requiera. Arquitectonicamente no hay problema",
+        "isCorrect": false
+      },
+      {
+        "text": "Siempre que se necesite, lo que no se puede hacer es desde Host",
+        "isCorrect": false
+      },
+      {
+        "text": "Sólo se puede hacer en transacciones globales",
+        "isCorrect": false
+      },
+      {
+        "text": "Por norma general no se puede",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "7148bb89-a9a9-431c-b4c7-380df8d6afcc",
+    "question": "Según el modelo unificado de ramas APX, qué es una rama developed",
+    "options": [
+      {
+        "text": "Rama donde se solucionan los bugs",
+        "isCorrect": false
+      },
+      {
+        "text": "Rama con la release de una versión de software",
+        "isCorrect": false
+      },
+      {
+        "text": "Rama donde se realizan los evolutivos de nuestra versión, su origen es la rama develop",
+        "isCorrect": false
+      },
+      {
+        "text": "Rama principal de desarrollo, de esta rama nacen y se integran las ramas feature",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "108a8d12-6946-49c2-8802-28983412e744",
+    "question": "Modificación de Nivel de Logs. Qué respuesta es INCORRECTA",
+    "options": [
+      {
+        "text": "Por tiempo limitado (máximo 1 hora)",
+        "isCorrect": false
+      },
+      {
+        "text": "Se baja hasta nivel debug",
+        "isCorrect": true
+      },
+      {
+        "text": "Sólo se activan en librerías, nunca en transacciones",
+        "isCorrect": false
+      },
+      {
+        "text": "Lo debe solicitar alguien de BBVA, BBVA Next o BBVA It",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "85c4db71-6f69-4ef6-94b0-764d87926497",
+    "question": "Qué obtenemos al ejecutar executeGetChannelName",
+    "options": [
+      {
+        "text": "La descripción de canal-medio-servicio",
+        "isCorrect": false
+      },
+      {
+        "text": "Sólo la descripción de canal",
+        "isCorrect": true
+      },
+      {
+        "text": "Modificamos el canal a otro que introduzcamos en la sentencia ()",
+        "isCorrect": false
+      },
+      {
+        "text": "Esa sentencia NUNCA se puede ejecutar",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "82b1ed39-c304-43a2-980a-b941c81a02a4",
+    "question": "Usos Titan Client APX Utility y Titan Service (Ether Connectors Service)",
+    "options": [
+      {
+        "text": "Se deben solicitar varios permisos al equipo Ether o APX",
+        "isCorrect": true
+      },
+      {
+        "text": "Ya no se necesita solicitar permisos, está totalmente abierto",
+        "isCorrect": false
+      },
+      {
+        "text": "No se permite usar Titan en España",
+        "isCorrect": false
+      },
+      {
+        "text": "Se deben solictar permisos via Jira",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "4339cc38-92e7-4051-9328-b29b76b463e2",
+    "question": "¿En las catas de APX, existe alguna etiqueta crítica? ¿Qué etiqueta es?",
+    "options": [
+      {
+        "text": "Sí. Es la asociada a la descripción del componente",
+        "isCorrect": false
+      },
+      {
+        "text": "Sí. Todas son críticas",
+        "isCorrect": false
+      },
+      {
+        "text": "Sí. Es la de \"API redundante\"",
+        "isCorrect": false
+      },
+      {
+        "text": "Sí. Es la de \"No cumple API\"",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "08a6b26a-dff1-4cd0-a8cb-104a3b8b1da3",
+    "question": "Modificación de Nivel de Logs. Qué respuesta es INCORRECTA",
+    "options": [
+      {
+        "text": "Por tiempo limitado (máximo 1 hora)",
+        "isCorrect": false
+      },
+      {
+        "text": "Se baja hasta nivel debug",
+        "isCorrect": true
+      },
+      {
+        "text": "Sólo se activan en librerías, nunca en transacciones",
+        "isCorrect": false
+      },
+      {
+        "text": "Lo debe solicitar alguien de BBVA, BBVA Next o BBVA It",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "e9e30bf1-771c-4466-aae3-0650c255aa5b",
+    "question": "¿Cuál es el único caso en el que se pueden informar resolution optional?",
+    "options": [
+      {
+        "text": "En transacciones y jobs apx, siempre que sean los que se incluyen para levantar la arquitectura",
+        "isCorrect": false
+      },
+      {
+        "text": "En jobs apx, siempre que sean los que se incluyen para levantar la arquitectura",
+        "isCorrect": true
+      },
+      {
+        "text": "En librerías y jobs apx, siempre que sean los que se incluyen para levantar la arquitectura",
+        "isCorrect": false
+      },
+      {
+        "text": "En cualquier componente de tipo online",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "1b1ccf12-dbbb-438c-aa65-23ab6923c73b",
+    "question": "¿Cómo se debe nombrar un método que se va a sobrecargar?",
+    "options": [
+      {
+        "text": "Deben ser nombres funcionales sin incluir caracteres raros(paréntesis, números, espacios en blanco...)",
+        "isCorrect": true
+      },
+      {
+        "text": "Es texto libre, cualquier nombre es válido",
+        "isCorrect": false
+      },
+      {
+        "text": "Deben ser nombres funcionales incluyendo caracteres raros (paréntesis, números, espacios en blanco...)",
+        "isCorrect": false
+      },
+      {
+        "text": "Deben ser nombres NO funcionales con cualquier tipo de caracter",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "c4e058c7-c10b-4595-b289-e6fab56c1e74",
+    "question": "En el aprovisionamiento dinámico (España) podemos ver el árbol de dependencias.¿En qué entorno?",
+    "options": [
+      {
+        "text": "Release",
+        "isCorrect": true
+      },
+      {
+        "text": "AUS",
+        "isCorrect": false
+      },
+      {
+        "text": "Producción",
+        "isCorrect": false
+      },
+      {
+        "text": "Piloto",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "83015339-370e-4d3e-9486-eb5da8d400a9",
+    "question": "Cómo dar marcha atrás en la consola Ether en entornos previos",
+    "options": [
+      {
+        "text": "Se redespliega la anterior rama que estuviera desplegada.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se solicita mediante un mail al buzón de Servicios",
+        "isCorrect": false
+      },
+      {
+        "text": "Mediante el botón Rollback de la consola",
+        "isCorrect": false
+      },
+      {
+        "text": "En EEPP no se puede dar marcha atrás.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "34205b19-901e-4f04-a23e-c5dba7fa07b2",
+    "question": "¿Cuándo se crea el repositorio de Bitbucket al generar un componente nuevo ?",
+    "options": [
+      {
+        "text": "Durante el proceso que se genera al pulsar Add resource en la consola",
+        "isCorrect": false
+      },
+      {
+        "text": "Al realizar el push del componente",
+        "isCorrect": false
+      },
+      {
+        "text": "Durante el proceso que se genera al pulsar Finalizar en la consola",
+        "isCorrect": true
+      },
+      {
+        "text": "Al realizar el despliegue del componente",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "84f9f167-403a-4319-8d8d-0e8c785dbac0",
+    "question": "¿Qué tipo de filtro de Atenea es éste: properties.hostname= \"lppxo301*\"?",
+    "options": [
+      {
+        "text": "Filtro por instancia",
+        "isCorrect": true
+      },
+      {
+        "text": "Filtro por entorno",
+        "isCorrect": false
+      },
+      {
+        "text": "Filtro por was",
+        "isCorrect": false
+      },
+      {
+        "text": "Filtro por error técnico",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "c9de7e68-e74d-44fa-88a1-4764535fa550",
+    "question": "Usos Titan Client APX Utility y Titan Service (Ether Connectors Service)",
+    "options": [
+      {
+        "text": "Se deben solicitar varios permisos al equipo Ether o APX",
+        "isCorrect": true
+      },
+      {
+        "text": "Ya no se necesita solicitar permisos, está totalmente abierto",
+        "isCorrect": false
+      },
+      {
+        "text": "No se permite usar Titan en España",
+        "isCorrect": false
+      },
+      {
+        "text": "Se deben solictar permisos via Jira",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "ce5740c3-ddd2-461e-9ee8-be60ac24752f",
+    "question": "La rama feature...",
+    "options": [
+      {
+        "text": "Tiene versión ‘-SNAPSHOT’, sube jares a Artifactory y es permanente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tiene versión ‘-SNAPSHOT’, NO sube jares a Artifactory y es efímera",
+        "isCorrect": true
+      },
+      {
+        "text": "Tiene versión fi nal (X.Y.Z), sube jares a Artifactory y es semi-permanente",
+        "isCorrect": false
+      },
+      {
+        "text": "Su origen es la rama release, se integra en ésta mediante pull request",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "eaf2477d-4637-4232-84cc-f708ba6e3aa2",
+    "question": "¿Qué obtenemos al ejecutar executeGetChannelName?",
+    "options": [
+      {
+        "text": "La descripción de canal-medio-servicio",
+        "isCorrect": false
+      },
+      {
+        "text": "Sólo la descripción de canal",
+        "isCorrect": true
+      },
+      {
+        "text": "Modifi camos el canal a otro que introduzcamos en la sentencia ()",
+        "isCorrect": false
+      },
+      {
+        "text": "Esa sentencia NUNCA se puede ejecutar",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "f71d9028-3f2f-4df1-8d72-4adb5e696e03",
+    "question": "¿Cuándo se puede llamar a servicios ASO desde APX?",
+    "options": [
+      {
+        "text": "Siempre que el diseño lo requiera. Arquitectónicamente no hay problema",
+        "isCorrect": false
+      },
+      {
+        "text": "Siempre que se necesite, lo que no se puede hacer es desde Host",
+        "isCorrect": false
+      },
+      {
+        "text": "Sólo se puede hacer en transacciones globales",
+        "isCorrect": false
+      },
+      {
+        "text": "Por norma general no se puede",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "a898c9bf-b152-4920-9078-36f6ae06e10c",
+    "question": "¿Qué se debe hacer cuando se quiere consumir una librería de otra UUAA?",
+    "options": [
+      {
+        "text": "Avisar al aplicativo mediante un correo al responsable de la UUAA",
+        "isCorrect": true
+      },
+      {
+        "text": "Nada, las librerías se pueden consumir sin problema",
+        "isCorrect": false
+      },
+      {
+        "text": "Abrir un Jira a arquitectura apx",
+        "isCorrect": false
+      },
+      {
+        "text": "Clonar la libreria de la otra UUAA en la UUAA llamante",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "2a8972b3-eea3-4e2d-b4a6-272f727697b4",
+    "question": "Según el modelo unificado de ramas APX/LRA, ¿qué es una rama developed?",
+    "options": [
+      {
+        "text": "Rama donde se solucionan los bugs",
+        "isCorrect": false
+      },
+      {
+        "text": "Rama con la release de una versión de software",
+        "isCorrect": false
+      },
+      {
+        "text": "Rama donde se realizan los evolutivos de nuestra versión, su origen es la rama develop",
+        "isCorrect": false
+      },
+      {
+        "text": "Rama principal de desarrollo, de esta rama nacen y se integran las ramas feature",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "817b91e7-e704-4290-a718-1f4d7e075557",
+    "question": "¿En las catas de APX, existe alguna etiqueta crítica? ¿Qué etiqueta es?",
+    "options": [
+      {
+        "text": "Sí. Es la asociada a la descripción del componente",
+        "isCorrect": false
+      },
+      {
+        "text": "Sí. Todas son críticas",
+        "isCorrect": false
+      },
+      {
+        "text": "Sí. Es la de \"API redundante\"",
+        "isCorrect": false
+      },
+      {
+        "text": "Sí. Es la de \"No cumple API\"",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "6e8c062d-e4d3-4129-ab7a-a1c6057a01f2",
+    "question": "¿Cómo sube la versión de un componente a artifactory de Producción?",
+    "options": [
+      {
+        "text": "Al desplegar mi componente en Producción",
+        "isCorrect": false
+      },
+      {
+        "text": "Enviando un correo a Arquitectura APX",
+        "isCorrect": false
+      },
+      {
+        "text": "Al compilar la rama release por primera vez en jenkins",
+        "isCorrect": true
+      },
+      {
+        "text": "La sube el equipo de arquitectura apx",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "107714fb-cf35-4cbf-8243-796f5134289b",
+    "question": "¿Qué NO es necesario informar cuando se solicita un aumento de timeout?",
+    "options": [
+      {
+        "text": "Porcentaje de errores",
+        "isCorrect": false
+      },
+      {
+        "text": "Transacción desde la que se invoca a esa librería con el conector",
+        "isCorrect": false
+      },
+      {
+        "text": "Tiempo al que se solicita el aumento",
+        "isCorrect": false
+      },
+      {
+        "text": "Ok del tercero al aumento de timeout",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "2ee5375c-6b25-4dc9-b72e-8aee15118c5a",
+    "question": "Respecto a las implantaciones APX",
+    "options": [
+      {
+        "text": "Tengo que validar que el componente de mi subida exponga servicio",
+        "isCorrect": false
+      },
+      {
+        "text": "Si el componente no depende de otros que vayan a implantar el Domingo, puede ser implantado en las ventanas adicionales habilitadas por Gestión de Cambios",
+        "isCorrect": false
+      },
+      {
+        "text": "Tengo que validar que el componente no esté fallando y afectando a su árbol de dependencias",
+        "isCorrect": false
+      },
+      {
+        "text": "Todas son correctas",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "bb4d524a-4eba-4725-8af0-38a228301ba5",
+    "question": "¿Qué tipos de despliegues NO existen en APX respecto de las librerías?",
+    "options": [
+      {
+        "text": "Batch",
+        "isCorrect": false
+      },
+      {
+        "text": "Dual",
+        "isCorrect": false
+      },
+      {
+        "text": "Seleccionable en cada despliegue",
+        "isCorrect": true
+      },
+      {
+        "text": "Online",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "94f5197c-6182-4d9a-8b17-60d64a8ee407",
+    "question": "Al realizarse el despliegue de producción, ¿cómo pruebo que mi componente ha desplegado?",
+    "options": [
+      {
+        "text": "Revisar en la consola de operaciones que el componente está actualizado con la hora de despliegue",
+        "isCorrect": false
+      },
+      {
+        "text": "Comprobar que en la consola ether se encuentre activo",
+        "isCorrect": false
+      },
+      {
+        "text": "Las dos afirmaciones son correctas",
+        "isCorrect": true
+      },
+      {
+        "text": "Ninguna es correcta",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "948156b6-cc65-4fdf-be88-8271056d4093",
+    "question": "¿Qué debo revisar cuándo mi componente no expone servicio?",
+    "options": [
+      {
+        "text": "Revisar en Kibana los logs de error utilizando los filtros para localizar mi componente",
+        "isCorrect": false
+      },
+      {
+        "text": "Revisar en Atenea los logs de error utilizando los filtros para localizar mi componente",
+        "isCorrect": true
+      },
+      {
+        "text": "Revisar en la consola de operaciones el estado del componente y notificar a Arquitectura APX España para que revise",
+        "isCorrect": false
+      },
+      {
+        "text": "Revisar en Dynatrace los logs de la máquina para ver el error que da mi componente",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "d0673b52-b4da-4112-b198-26883e5b90a1",
+    "question": "Respecto a PRZ en APX",
+    "options": [
+      {
+        "text": "Se deben realizar subidas de componentes a PRZ antes de subir a PRO",
+        "isCorrect": false
+      },
+      {
+        "text": "Se han creado nuevas máquinas en PRZ para APX",
+        "isCorrect": true
+      },
+      {
+        "text": "No existen nodos de PRZ en APX",
+        "isCorrect": false
+      },
+      {
+        "text": "Ninguna es correcta",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "cbfeb5ec-75b8-44a6-91f4-2207b722630b",
+    "question": "¿Por normal general se quitan las versiones Snapshot de las dependencias?",
+    "options": [
+      {
+        "text": "No, sólo ocurre si los componentes están en la misma UD",
+        "isCorrect": true
+      },
+      {
+        "text": "No, eso no ocurre nunca",
+        "isCorrect": false
+      },
+      {
+        "text": "Sí, para evitar errores en la compilación",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo entre interfaz e implementación de una librería",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "d31cac53-4b59-46df-94b2-a77f59b7530f",
+    "question": "Para revisar el motivo de que mi componente se quede activo sin exponer:",
+    "options": [
+      {
+        "text": "Debo revisarlo en Atenea logs en el NS correspondiente y con un filtrado específico",
+        "isCorrect": true
+      },
+      {
+        "text": "Puedo ver el motivo en la consola APX en Felix Info",
+        "isCorrect": false
+      },
+      {
+        "text": "Siempre debo utilizar Kibana",
+        "isCorrect": false
+      },
+      {
+        "text": "Ninguna es correcta",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "07954c3a-0a4f-4aef-93f7-27e6e966a4e1",
+    "question": "¿Que días son las ventanas de APX de subida a Producción?",
+    "options": [
+      {
+        "text": "Lunes, viernes y domingos de calendada",
+        "isCorrect": false
+      },
+      {
+        "text": "Miércoles, viernes y domingos de calendada",
+        "isCorrect": false
+      },
+      {
+        "text": "Martes, jueves y domingos de calendada",
+        "isCorrect": false
+      },
+      {
+        "text": "Martes, viernes y domingos de calendada",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "f6daad05-9416-4b11-979e-35d4f601e145",
+    "question": "¿Cuándo puedo usar un carácter comodín en BBDD?",
+    "options": [
+      {
+        "text": "En el nombre de la tabla y de las columnas",
+        "isCorrect": false
+      },
+      {
+        "text": "Está permitido en cualquier caso",
+        "isCorrect": false
+      },
+      {
+        "text": "En ninguno de los casos está permitido",
+        "isCorrect": true
+      },
+      {
+        "text": "En el valor de las celdas, en las tablas está prohibido",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "d355786a-8598-4194-9d26-2728c08ae782",
+    "question": "¿De dónde ingesta la información el chatbot?",
+    "options": [
+      {
+        "text": "De la AEMET",
+        "isCorrect": false
+      },
+      {
+        "text": "Del Greg",
+        "isCorrect": false
+      },
+      {
+        "text": "De Atenea",
+        "isCorrect": false
+      },
+      {
+        "text": "Del Platform",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "2f22f6b4-03f8-492b-a5d3-006af99f227e",
+    "question": "Para categorizar una nueva transacción:",
+    "options": [
+      {
+        "text": "Debo abrir una petición vía JIRA para categorizar en la zona correcta",
+        "isCorrect": false
+      },
+      {
+        "text": "Debo enviar el formulario de solicitud de categorización de transacciones",
+        "isCorrect": true
+      },
+      {
+        "text": "A partir de mi ticket de Construcción le llega a Arquitectura la tarea de categorizar en cualquier zona",
+        "isCorrect": false
+      },
+      {
+        "text": "Debo abrir un Helix para solicitar la categorización en la zona correcta",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "5c7251cf-7b89-47f1-9266-80c44a0baf33",
+    "question": "¿Cómo debo estructurar una librería multi-país?",
+    "options": [
+      {
+        "text": "Una interfaz por cada país y una implementación común",
+        "isCorrect": false
+      },
+      {
+        "text": "Una interfaz común y una carpeta para cada implementación de país",
+        "isCorrect": true
+      },
+      {
+        "text": "Una interfaz e implementación por cada país en el que se despliega",
+        "isCorrect": false
+      },
+      {
+        "text": "Una interfaz común y una carpeta que contenga las implementaciones de cada país",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "f7d8d258-262e-4a81-9cfb-21d7134174c5",
+    "question": "¿Cuáles son los objetivos principales de la guía de Catas de Diseño APX?",
+    "options": [
+      {
+        "text": "Indicar cómo se debe realizar un buen diseño de componentes APX",
+        "isCorrect": false
+      },
+      {
+        "text": "Explicar qué etiquetas Jira se aplican en las catas cuando la información o el diseño no es correcto",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuál es el funcionamiento del sistema de puntuación de las catas",
+        "isCorrect": false
+      },
+      {
+        "text": "Todas las anteriores son correctas",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "27525532-3377-4433-8892-0b493e6d1daa",
+    "question": "Si se detectan errores derivados respecto a una nueva versión de Arquitectura Apx:",
+    "options": [
+      {
+        "text": "Debo reportarlo vía Helix en función del runtime",
+        "isCorrect": true
+      },
+      {
+        "text": "Debo reportarlo vía Jira en función del runtime",
+        "isCorrect": false
+      },
+      {
+        "text": "Debo reportarlo por correo",
+        "isCorrect": false
+      },
+      {
+        "text": "Debo reportarlo por TeamSpaces",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "4f3db37a-5822-4fec-8ca7-407bf5b67324",
+    "question": "Si mi componente está fallando después de ser implantado un domingo, ¿qué debo hacer?",
+    "options": [
+      {
+        "text": "Realizar un hotfix sobre el componente para corregir el error.",
+        "isCorrect": false
+      },
+      {
+        "text": "Llamar a la guardia de Arquitectura APX España para que reinicien las máquinas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Llamar a la guardia de Soporte Backjee APX para que reinicien las máquinas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Realizar marcha atrás en cuanto se detecten los errores.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "4d94d20b-a6b2-4c39-b4f1-05dd795c4df4",
+    "question": "Si mi transacción tiene poco volumen de ejecuciones, ¿Debo solicitar el alarmado?",
+    "options": [
+      {
+        "text": "Como monitorizo todas las mañanas, no es necesario el alarmado.",
+        "isCorrect": false
+      },
+      {
+        "text": "No es necesario, ya que Arquitectura notificará si hay errores.",
+        "isCorrect": false
+      },
+      {
+        "text": "Debo solicitarlo porque es obligatorio.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ninguna respuesta es correcta.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "2e8b44e1-c608-431f-bfc8-4b5b802aefb9",
+    "question": "¿Qué ha pasado con la zona 30?",
+    "options": [
+      {
+        "text": "Ya no es la zona por defecto por lo que no se instalan los jares por defecto en esta zona",
+        "isCorrect": true
+      },
+      {
+        "text": "Se ha cambiado de nombre",
+        "isCorrect": false
+      },
+      {
+        "text": "Nada. Todo se mantiene como hasta ahora",
+        "isCorrect": false
+      },
+      {
+        "text": "Se han eliminado todos los nodos de esta zona",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "bd8d8a09-c623-48ff-aafb-bb5f27ccf31d",
+    "question": "¿Qué herramienta sustituye a Currents?",
+    "options": [
+      {
+        "text": "Google Chat Spaces",
+        "isCorrect": false
+      },
+      {
+        "text": "Askbot",
+        "isCorrect": false
+      },
+      {
+        "text": "Team Spaces",
+        "isCorrect": true
+      },
+      {
+        "text": "Ninguna, Currents sigue vigente",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "ef2ee93b-adc0-4ed8-a251-7bfb903937da",
+    "question": "¿Cuándo puedo subir un componente auto-contenido en APX?",
+    "options": [
+      {
+        "text": "En cualquier ventana funcional disponible.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cualquier domingo.",
+        "isCorrect": false
+      },
+      {
+        "text": "En la calendada habilitada de los domingos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cualquier día.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "93d03bce-a840-4990-aca0-c4f25568c356",
+    "question": "Para que una librería Batch consuma a otra, ¿qué pasos se deben seguir?",
+    "options": [
+      {
+        "text": "Comunicar al responsable de la UUAA que va a ser consumida una librería suya, independientemente de si es de infraestructura o no.",
+        "isCorrect": false
+      },
+      {
+        "text": "Comprobar que la UUAA de la librería sea de infraestructura y comunicar al responsable de dicha UUAA que va a ser consumida por el componente.",
+        "isCorrect": true
+      },
+      {
+        "text": "Escribir al responsable de la UUAA para solicitar visibilidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solicitar que ambas UUAAs se incluyan como infraestructura para poder realizar las llamadas.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "fcf46f0c-e6db-47ec-bdb0-1d65198426f3",
+    "question": "¿Qué foro es el adecuado para realizar consultas de tipo funcionales o de desarrollo?",
+    "options": [
+      {
+        "text": "Askbot y/o preguntar al responsable del backend",
+        "isCorrect": true
+      },
+      {
+        "text": "Currents",
+        "isCorrect": false
+      },
+      {
+        "text": "Se debe enviar un correo al equipo de Gobierno",
+        "isCorrect": false
+      },
+      {
+        "text": "Team Spaces",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "b777b21a-af79-4153-8352-c57e7631f61d",
+    "question": "¿Qué puedo hacer si mi componente está sin exponer servicio?",
+    "options": [
+      {
+        "text": "Preguntar en Team Spaces",
+        "isCorrect": false
+      },
+      {
+        "text": "Consultar el bot de ayuda APX",
+        "isCorrect": true
+      },
+      {
+        "text": "Abrir un ticket de tipo: Soporte y Consultoría",
+        "isCorrect": false
+      },
+      {
+        "text": "Preguntar en Askbot",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "a1ba1915-aa24-4577-8953-f8a70be9cad0",
+    "question": "¿Es correcto realizar un \"SELECT *\" en mi código?",
+    "options": [
+      {
+        "text": "Sí, ya que necesito recuperar toda la información de la tabla.",
+        "isCorrect": false
+      },
+      {
+        "text": "No, ya que no podré subir mi código si tengo \"SELECT *\"",
+        "isCorrect": true
+      },
+      {
+        "text": "Da igual si utilizo * o informo cada columna, el resultado es el mismo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ninguna de las anteriores es correcta.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "78667be0-64ba-4b7f-b925-448b42ce5a90",
+    "question": "¿Qué permite la herramienta PMaaS del equipo de Deployment Quality OCTA?",
+    "options": [
+      {
+        "text": "Permite que ChatGPT optimicé el rendimiento de mi componente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mide el número de invocaciones en producción del componente a certificar.",
+        "isCorrect": false
+      },
+      {
+        "text": "Automatiza el despliegue de las librerías y sus dependencias.",
+        "isCorrect": false
+      },
+      {
+        "text": "Disponibiliza la autocertificación de rendimiento para componentes ASO y APX ONLINE con uso bajo o moderado.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "22355a28-8b32-424a-bbce-2cd58c862752",
+    "question": "¿Con qué sentencia puedes \"llevarte\" un Golpe de Remo al usar mala práctica?",
+    "options": [
+      {
+        "text": "System.*",
+        "isCorrect": true
+      },
+      {
+        "text": "Capturar una BusinessException",
+        "isCorrect": false
+      },
+      {
+        "text": "Hacer uso de las utilidades de la Arquitectura",
+        "isCorrect": false
+      },
+      {
+        "text": "Llamar a una librería de APX",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "e9679c09-35d8-45c4-a07a-8a7644aa9827",
+    "question": "¿Cúando se ha de pedir la categorización de la transacción?",
+    "options": [
+      {
+        "text": "Tras las pruebas de Desarrollo",
+        "isCorrect": true
+      },
+      {
+        "text": "No hace falta pedirlo, es automático",
+        "isCorrect": false
+      },
+      {
+        "text": "En cualquier momento",
+        "isCorrect": false
+      },
+      {
+        "text": "Antes de empezar con el desarrollo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "42a04156-4a8b-41da-af99-0aec7bd3461d",
+    "question": "¿Qué versión de Java tienen los nuevos nodos de APX?",
+    "options": [
+      {
+        "text": "JDK 8",
+        "isCorrect": false
+      },
+      {
+        "text": "JDK 11",
+        "isCorrect": true
+      },
+      {
+        "text": "JDK 14",
+        "isCorrect": false
+      },
+      {
+        "text": "JDK 17",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "f9fb23cc-fc19-4452-8f67-27f7d7779f24",
+    "question": "Tengo una duda de desarrollo. ¿Dónde puedo preguntar?",
+    "options": [
+      {
+        "text": "Abrir una Talk en Team Spaces",
+        "isCorrect": false
+      },
+      {
+        "text": "Jira tipo Arquitectura APX",
+        "isCorrect": false
+      },
+      {
+        "text": "Preguntar en Askbot",
+        "isCorrect": true
+      },
+      {
+        "text": "Correo a Arquitectura APX España",
+        "isCorrect": false
+      }
+    ]
+  }
+]
