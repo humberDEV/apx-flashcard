@@ -16,10 +16,15 @@ export default function App() {
     testFinished,
     score,
     startNewRun,
+    testsProgress,
+    startPredefinedTest,
+    startErrorTest,
+    errorQuestions,
   } = useFlashcards();
 
   const [view, setView] = useState("menu");
   const [timeLeft, setTimeLeft] = useState(600); // 10 minutos
+  const [selectedTest, setSelectedTest] = useState(null);
 
   useEffect(() => {
     if (view !== "test" || testFinished) return;
@@ -27,7 +32,7 @@ export default function App() {
       setTimeLeft((prev) => {
         if (prev <= 1) {
           clearInterval(timer);
-          finishTest();
+          finishTest(selectedTest);
         }
         return prev - 1;
       });
@@ -36,7 +41,22 @@ export default function App() {
   }, [view, testFinished]);
 
   const handleStart = () => {
+    setSelectedTest(null);
     startNewRun();
+    setTimeLeft(600);
+    setView("test");
+  };
+
+  const handleStartPredefined = (testKey) => {
+    setSelectedTest(testKey);
+    startPredefinedTest(testKey);
+    setTimeLeft(600);
+    setView("test");
+  };
+
+  const handleStartErrors = () => {
+    setSelectedTest("errors");
+    startErrorTest();
     setTimeLeft(600);
     setView("test");
   };
@@ -46,21 +66,51 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-300 flex items-center justify-center p-6">
+    <div className="min-h-screen flex items-center justify-center p-6">
       {view === "menu" && (
-        <div className="flex flex-col gap-4 text-center">
+        <div className="flex flex-col gap-4 text-center max-w-xl w-full">
           <h1 className="text-3xl font-bold mb-6">Certificación APX</h1>
 
           <button
             onClick={handleStart}
             className="bg-blue-700 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded"
           >
-            🎯 Empezar test (20 preguntas)
+            🎯 Test aleatorio (20 preguntas)
           </button>
+
+          {errorQuestions.length > 0 && (
+            <button
+              onClick={handleStartErrors}
+              className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+            >
+              ❗ Test de errores ({errorQuestions.length})
+            </button>
+          )}
+
+          <h2 className="mt-6 font-semibold">🧩 Tests predefinidos:</h2>
+          <div className="grid grid-cols-3 gap-2">
+            {Array.from({ length: 12 }).map((_, i) => {
+              const key = `flashcard_apx_${i + 1}`;
+              const status = testsProgress[key];
+              let bg = "bg-gray-400";
+              if (status === "passed") bg = "bg-green-500";
+              else if (status === "failed") bg = "bg-red-500";
+
+              return (
+                <button
+                  key={key}
+                  onClick={() => handleStartPredefined(key)}
+                  className={`${bg} text-white font-semibold px-2 py-2 rounded`}
+                >
+                  Test {i + 1}
+                </button>
+              );
+            })}
+          </div>
 
           <button
             onClick={() => setView("stats")}
-            className="bg-blue-400 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded"
+            className="bg-blue-400 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded mt-6"
           >
             📊 Estadísticas
           </button>
@@ -77,7 +127,10 @@ export default function App() {
               ⏱ {Math.floor(timeLeft / 60)}:
               {(timeLeft % 60).toString().padStart(2, "0")}
             </p>
-            <button onClick={finishTest} className="text-blue-600 underline">
+            <button
+              onClick={() => finishTest(selectedTest)}
+              className="text-blue-600 underline"
+            >
               Finalizar
             </button>
           </div>
@@ -104,6 +157,25 @@ export default function App() {
             >
               Siguiente ➡️
             </button>
+          </div>
+          {/* Mapa de preguntas */}
+          <div className="grid grid-cols-10 gap-2 mt-6">
+            {cards.map((_, i) => {
+              const answered = answers[i] !== null;
+              const isCurrent = index === i;
+              let bg = answered ? "bg-blue-500" : "bg-gray-300";
+              let ring = isCurrent ? "ring-2 ring-black" : "";
+              return (
+                <button
+                  key={i}
+                  onClick={() => setIndex(i)}
+                  className={`text-white font-semibold rounded-full w-8 h-8 text-sm ${bg} ${ring}`}
+                  title={`Ir a la pregunta ${i + 1}`}
+                >
+                  {i + 1}
+                </button>
+              );
+            })}
           </div>
         </div>
       )}
