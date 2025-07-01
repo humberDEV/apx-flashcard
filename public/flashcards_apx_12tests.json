@@ -953,6 +953,18 @@
       ],
       "answer": "Bitbucket",
       "topic": "General"
+    },
+    {
+      "id": "31fc413c-4b04-48c7-b89e-2eccc1e3cde8",
+      "question": "¿En qué estándar temporal tengo que realizar el parseo de una fecha?",
+      "options": [
+        "CEST",
+        "UTC",
+        "Da igual",
+        "Según lo que se haya definido con Gobierno"
+      ],
+      "answer": "UTC",
+      "topic": "General"
     }
   ],
   "flashcard_apx_5": [
@@ -1182,6 +1194,18 @@
         "Verdadero. No existe ninguna limitación para poder usar hilos."
       ],
       "answer": "Falso. No se pueden usar hilos en ningún caso",
+      "topic": "General"
+    },
+    {
+      "id": "6cd1060c-5145-42a3-887c-7dee6aeb6f3e",
+      "question": "Para poder revisar los errores en la ejecución de un componente APX, deberemos",
+      "options": [
+        "Revisar las trazas en Atenea",
+        "Revisar la compilación y el despliegue en desarrollo",
+        "Revisar Kibana",
+        "Revisar y ajustar los test unitarios"
+      ],
+      "answer": "Revisar las trazas en Atenea",
       "topic": "General"
     }
   ],
@@ -1413,6 +1437,18 @@
       ],
       "answer": "Debo revisarlo en Atenea logs en el NS correspondiente y con un filtrado específico",
       "topic": "General"
+    },
+    {
+      "id": "9a8c3d07-b42b-4bc4-81f7-55a5756c9448",
+      "question": "Antes de subir mi componente a integrado debo asegurarme de",
+      "options": [
+        "Pasa los test y el Sonar correctamente",
+        "Compila y se despliega correctamente en Desarrollo",
+        "Compila en Integrado",
+        "Compila en mi local y ha terminado el despliegue en Desarrollo"
+      ],
+      "answer": "Compila y se despliega correctamente en Desarrollo",
+      "topic": "General"
     }
   ],
   "flashcard_apx_7": [
@@ -1640,6 +1676,18 @@
         "Por norma general no se puede"
       ],
       "answer": "Por norma general no se puede",
+      "topic": "General"
+    },
+    {
+      "id": "55e2a3b6-8ce3-4410-8547-ba4db12c611a",
+      "question": "Cuál de estas excepciones no está permitida capturar en APX",
+      "options": [
+        "BusinessException",
+        "NumberFormatException",
+        "IOException",
+        "TimeoutException"
+      ],
+      "answer": "IOException",
       "topic": "General"
     }
   ],
@@ -1869,6 +1917,18 @@
       ],
       "answer": "5",
       "topic": "General"
+    },
+    {
+      "id": "108a8d12-6946-49c2-8802-28983412e744",
+      "question": "Modificación de Nivel de Logs. Qué respuesta es INCORRECTA",
+      "options": [
+        "Por tiempo limitado (máximo 1 hora)",
+        "Se baja hasta nivel debug",
+        "Sólo se activan en librerías, nunca en transacciones",
+        "Lo debe solicitar alguien de BBVA, BBVA Next o BBVA It"
+      ],
+      "answer": "Se baja hasta nivel debug",
+      "topic": "General"
     }
   ],
   "flashcard_apx_9": [
@@ -2096,6 +2156,18 @@
         "Transacción",
         "JOB",
         "DTO"
+      ],
+      "answer": "DTO",
+      "topic": "General"
+    },
+    {
+      "id": "e7763cff-41ed-478d-819f-28506442829c",
+      "question": "¿Que componentes no tienen ninguna lógica comercial?",
+      "options": [
+        "JOB",
+        "DTO",
+        "Librería",
+        "Transacción"
       ],
       "answer": "DTO",
       "topic": "General"
@@ -2329,6 +2401,18 @@
       ],
       "answer": "Tiene versión ‘-SNAPSHOT’, NO sube jares a Artifactory y es efímera",
       "topic": "General"
+    },
+    {
+      "id": "de1d9103-e49d-4fda-b213-ba2d2dbe9d32",
+      "question": "¿Cuándo se crea el repositorio de Bitbucket al generar un componente nuevo?",
+      "options": [
+        "Durante el proceso que se genera al pulsar Add resource en la consola",
+        "Al realizar el push del componente",
+        "Durante el proceso que se genera al pulsar Finalizar en la consola",
+        "Al realizar el despliegue del componente"
+      ],
+      "answer": "Durante el proceso que se genera al pulsar Finalizar en la consola",
+      "topic": "General"
     }
   ],
   "flashcard_apx_11": [
@@ -2559,6 +2643,18 @@
       ],
       "answer": "Revisar el despliegue en Kibana, para ver la causa de que no levante el servicio",
       "topic": "General"
+    },
+    {
+      "id": "f71d9028-3f2f-4df1-8d72-4adb5e696e03",
+      "question": "¿Cuándo se puede llamar a servicios ASO desde APX?",
+      "options": [
+        "Siempre que el diseño lo requiera. Arquitectónicamente no hay problema",
+        "Siempre que se necesite, lo que no se puede hacer es desde Host",
+        "Sólo se puede hacer en transacciones globales",
+        "Por norma general no se puede"
+      ],
+      "answer": "Por norma general no se puede",
+      "topic": "General"
     }
   ],
   "flashcard_apx_12": [
@@ -2788,6 +2884,18 @@
         "Esa sentencia NUNCA se puede ejecutar"
       ],
       "answer": "Sólo la descripción de canal",
+      "topic": "General"
+    },
+    {
+      "id": "31fc413c-4b04-48c7-b89e-2eccc1e3cde8",
+      "question": "¿En qué estándar temporal tengo que realizar el parseo de una fecha?",
+      "options": [
+        "CEST",
+        "UTC",
+        "Da igual",
+        "Según lo que se haya definido con Gobierno"
+      ],
+      "answer": "UTC",
       "topic": "General"
     }
   ]

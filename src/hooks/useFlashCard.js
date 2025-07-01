@@ -62,13 +62,18 @@ export default function useFlashcards() {
   };
 
   const startPredefinedTest = (testKey) => {
-    const selected = (predefinedTests[testKey] || []).map((q) => ({
-      ...q,
-      options: shuffleArray(q.options),
-    }));
+    const allQuestions = predefinedTests[testKey] || [];
+
+    // Mezcla todo el array y corta las primeras 20 preguntas
+    const selected = shuffleArray(allQuestions)
+      .slice(0, 20)
+      .map((q) => ({
+        ...q,
+        options: shuffleArray(q.options),
+      }));
 
     setCards(selected);
-    setAnswers(Array(selected.length).fill(null));
+    setAnswers(Array(20).fill(null));
     setIndex(0);
     setTestFinished(false);
     setScore(null);
