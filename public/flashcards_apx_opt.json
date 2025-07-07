@@ -705,7 +705,7 @@
     "id": "84cf60db-60b8-4261-ab58-71ee054db715",
     "question": "La rama Release se obtiene desde la rama",
     "options": ["develop", "master", "feature", "bugfix"],
-    "answer": "feature",
+    "answer": "develop",
     "topic": "General"
   },
   {
@@ -1771,7 +1771,9 @@
     "question": "¿Qué se debe hacer cuando se quiere consumir una librería de otra UUAA?",
     "options": [
       "Nada, las librerías se pueden consumir sin problema",
-      "Abrir un Jira a arquitectura apx"
+      "Abrir un Jira a arquitectura apx",
+      "Avisar al aplicativo mediante un correo al responsable de la UUAA",
+      "No se pueden consumir librerías de otras UUAAs en APX online"
     ],
     "answer": "",
     "topic": "General"
