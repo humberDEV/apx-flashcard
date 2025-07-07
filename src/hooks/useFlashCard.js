@@ -130,10 +130,17 @@ export default function useFlashcards() {
     );
     localStorage.setItem("apx-corrects", (prevCorrect + correct).toString());
 
-    // ✅ Guardar errores (unir arrays sin repetir IDs)
+    // ✅ Guardar errores (limpia los que se corrigieron)
     const prevErrors = JSON.parse(localStorage.getItem("apx-errors") || "[]");
-    const uniqueErrors = Array.from(new Set([...prevErrors, ...newErrors]));
-    localStorage.setItem("apx-errors", JSON.stringify(uniqueErrors));
+    const updatedErrors = Array.from(
+      new Set([
+        ...prevErrors.filter(
+          (id) => !cards.find((c, i) => c.id === id && answers[i] === c.answer)
+        ),
+        ...newErrors,
+      ])
+    );
+    localStorage.setItem("apx-errors", JSON.stringify(updatedErrors));
 
     // ✅ Guardar puntuaciones (máx. 10)
     const prevScores = JSON.parse(localStorage.getItem("apx-scores") || "[]");

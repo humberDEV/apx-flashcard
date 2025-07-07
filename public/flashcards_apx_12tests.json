@@ -39,12 +39,7 @@
     {
       "id": "3fcf9f75-5e9a-4b35-9e50-8057cce2ac47",
       "question": "¿Cuál es el mínimo de cobertura en Sonar?",
-      "options": [
-        "50%",
-        "80%",
-        "70%",
-        "60%"
-      ],
+      "options": ["50%", "80%", "70%", "60%"],
       "answer": "80%",
       "topic": "General"
     },
@@ -87,12 +82,7 @@
     {
       "id": "bb2f81f5-1471-4555-828b-ed15f3a1a2b8",
       "question": "¿Con qué versión se crea un componente nuevo?",
-      "options": [
-        "0.1.0-SNAPSHOT",
-        "0.0.0",
-        "0.0.0-SNAPSHOT",
-        "0.1.0"
-      ],
+      "options": ["0.1.0-SNAPSHOT", "0.0.0", "0.0.0-SNAPSHOT", "0.1.0"],
       "answer": "0.1.0-SNAPSHOT",
       "topic": "General"
     },
@@ -147,12 +137,7 @@
     {
       "id": "de69f4e0-d4b0-4719-9c89-32061fcbd0b7",
       "question": "La rama release, ¿desde que rama sale?",
-      "options": [
-        "Feature",
-        "HotFix",
-        "BugFix",
-        "Develop"
-      ],
+      "options": ["Feature", "HotFix", "BugFix", "Develop"],
       "answer": "Develop",
       "topic": "General"
     },
@@ -425,24 +410,14 @@
     {
       "id": "ec41c050-6c53-4860-ba37-ff7113928a66",
       "question": "Al ejecutar nuestros componentes APX, en caso de error, ¿dónde tenemos que ir a ver las trazas?",
-      "options": [
-        "Consola de Operaciones APX",
-        "Felix",
-        "Atenea",
-        "Kibana"
-      ],
+      "options": ["Consola de Operaciones APX", "Felix", "Atenea", "Kibana"],
       "answer": "Atenea",
       "topic": "General"
     },
     {
       "id": "05875e2d-3d66-496d-b87e-e7248463906b",
       "question": "La rama release, ¿desde que rama sale?",
-      "options": [
-        "Feature",
-        "HotFix",
-        "Develop",
-        "BugFix"
-      ],
+      "options": ["Feature", "HotFix", "Develop", "BugFix"],
       "answer": "Develop",
       "topic": "General"
     },
@@ -473,12 +448,7 @@
     {
       "id": "006a6dee-f678-4ec3-9c92-bb94ee783500",
       "question": "¿Qué rama sube los cambios al Artifactory de Producción?",
-      "options": [
-        "Bugfix",
-        "Release",
-        "Feature",
-        "Develop"
-      ],
+      "options": ["Bugfix", "Release", "Feature", "Develop"],
       "answer": "Release",
       "topic": "General"
     }
@@ -523,12 +493,7 @@
     {
       "id": "fe459479-c037-41ed-91e5-4669fd1b64de",
       "question": "Hasta qué entorno puedo desplegar una rama bugfix",
-      "options": [
-        "Integrado",
-        "Desarrollo",
-        "OCTA",
-        "Producción"
-      ],
+      "options": ["Integrado", "Desarrollo", "OCTA", "Producción"],
       "answer": "Integrado",
       "topic": "General"
     },
@@ -571,12 +536,7 @@
     {
       "id": "4012b6ae-2f64-41a5-bcac-a28b2f009c7a",
       "question": "Cuando vemos un componente del tipo UUAAC001, estamos hablando de",
-      "options": [
-        "Un job",
-        "Una transacción",
-        "Una librería",
-        "Un DTO"
-      ],
+      "options": ["Un job", "Una transacción", "Una librería", "Un DTO"],
       "answer": "Un DTO",
       "topic": "General"
     },
@@ -643,12 +603,7 @@
     {
       "id": "3829a49f-9b8a-456c-b3fa-8c01fcc7dce0",
       "question": "Hasta qué entorno puedo desplegar una rama develop",
-      "options": [
-        "Integrado",
-        "Producción",
-        "Desarrollo",
-        "OCTA"
-      ],
+      "options": ["Integrado", "Producción", "Desarrollo", "OCTA"],
       "answer": "Integrado",
       "topic": "General"
     },
@@ -667,24 +622,14 @@
     {
       "id": "a6311773-b5bd-4ba1-8eb8-2e772df013e0",
       "question": "Hasta qué entorno puedo desplegar una rama develop",
-      "options": [
-        "Desarrollo",
-        "Producción",
-        "OCTA",
-        "Integrado"
-      ],
+      "options": ["Desarrollo", "Producción", "OCTA", "Integrado"],
       "answer": "Integrado",
       "topic": "General"
     },
     {
       "id": "0b43747c-b521-497b-a588-6c0e2d60b992",
       "question": "¿Qué mínimo de cobertura en Sonar debe tener un componente?",
-      "options": [
-        "75%",
-        "70%",
-        "85%",
-        "80%"
-      ],
+      "options": ["75%", "70%", "85%", "80%"],
       "answer": "80%",
       "topic": "General"
     },
@@ -715,12 +660,7 @@
     {
       "id": "d355786a-8598-4194-9d26-2728c08ae782",
       "question": "¿De dónde ingesta la información el chatbot?",
-      "options": [
-        "De la AEMET",
-        "Del Greg",
-        "De Atenea",
-        "Del Platform"
-      ],
+      "options": ["De la AEMET", "Del Greg", "De Atenea", "Del Platform"],
       "answer": "Del Platform",
       "topic": "General"
     }
@@ -729,24 +669,14 @@
     {
       "id": "fb9c36b9-251e-4cc6-9107-e14d23956ab2",
       "question": "¿Cuánto tiempo pasa desde que un componente se usa por última vez hasta que se desactiva?",
-      "options": [
-        "13 meses",
-        "3 meses",
-        "1 mes",
-        "10 meses"
-      ],
+      "options": ["13 meses", "3 meses", "1 mes", "10 meses"],
       "answer": "13 meses",
       "topic": "General"
     },
     {
       "id": "757909dd-ca0b-46d9-8ba8-c9931b456179",
       "question": "Configuración de la consola de operaciones APX. Para importar claves de configuración, se debe modificar el archivo JSON descargado previamente. En el caso de querer modificar se debe cambiar el valor \"acción\" a:",
-      "options": [
-        "M",
-        "C",
-        "D",
-        "U"
-      ],
+      "options": ["M", "C", "D", "U"],
       "answer": "U",
       "topic": "General"
     },
@@ -777,12 +707,7 @@
     {
       "id": "6f4a6522-14e9-4b94-883f-302f2da20c5c",
       "question": "Hasta qué entorno puedo desplegar una rama hotfix",
-      "options": [
-        "Desarrollo",
-        "Producción",
-        "Integrado",
-        "OCTA"
-      ],
+      "options": ["Desarrollo", "Producción", "Integrado", "OCTA"],
       "answer": "Integrado",
       "topic": "General"
     },
@@ -909,12 +834,7 @@
     {
       "id": "30f56777-b458-4250-94d4-f72a802f8376",
       "question": "¿Cúal es el minimo de cobertura en Sonar?",
-      "options": [
-        "80%",
-        "50%",
-        "60%",
-        "70%"
-      ],
+      "options": ["80%", "50%", "60%", "70%"],
       "answer": "80%",
       "topic": "General"
     },
@@ -933,24 +853,14 @@
     {
       "id": "f8e515aa-9bfe-4eef-b3cb-d3379d4b76c2",
       "question": "¿Con qué versión se crea un componente nuevo?",
-      "options": [
-        "0.0.0-SNAPSHOT",
-        "0.1.0-SNAPSHOT",
-        "0.0.0",
-        "0.1.0"
-      ],
+      "options": ["0.0.0-SNAPSHOT", "0.1.0-SNAPSHOT", "0.0.0", "0.1.0"],
       "answer": "0.1.0-SNAPSHOT",
       "topic": "General"
     },
     {
       "id": "adfba717-727e-411a-8454-9445081832dd",
       "question": "¿Cuál es el repositorio que usamos para trabajar en APX?",
-      "options": [
-        "Git",
-        "Maven",
-        "Bitbucket",
-        "Ninguno de los anteriores"
-      ],
+      "options": ["Git", "Maven", "Bitbucket", "Ninguno de los anteriores"],
       "answer": "Bitbucket",
       "topic": "General"
     },
@@ -1007,12 +917,7 @@
     {
       "id": "0b8f2650-4f24-423d-86ba-7c8f161a8dfa",
       "question": "Cuando vemos un componente del tipo UUAAC001, estamos hablando de...",
-      "options": [
-        "Un job",
-        "Una transacción",
-        "Una librería",
-        "Un DTO"
-      ],
+      "options": ["Un job", "Una transacción", "Una librería", "Un DTO"],
       "answer": "Un DTO",
       "topic": "General"
     },
@@ -1115,12 +1020,7 @@
     {
       "id": "ce3f63d1-8be2-4bf2-9d56-96a3a481d698",
       "question": "¿Desde qué componente puedo realizar acceso a base de datos en APX online?",
-      "options": [
-        "Transacción",
-        "Librería",
-        "DTO",
-        "Todas las anteriores"
-      ],
+      "options": ["Transacción", "Librería", "DTO", "Todas las anteriores"],
       "answer": "Librería",
       "topic": "General"
     },
@@ -1225,12 +1125,7 @@
     {
       "id": "d897534d-45c9-468b-8e76-ba6aedf57e15",
       "question": "Cuando vemos un componente del tipo UUAAC001, estamos hablando de",
-      "options": [
-        "Una transacción",
-        "Un job",
-        "Un DTO",
-        "Una librería"
-      ],
+      "options": ["Una transacción", "Un job", "Un DTO", "Una librería"],
       "answer": "Un DTO",
       "topic": "General"
     },
@@ -1357,12 +1252,7 @@
     {
       "id": "d02dc4c7-203b-4c4b-93f7-739640979dbd",
       "question": "Hasta qué entorno puedo desplegar una rama release",
-      "options": [
-        "OCTA",
-        "Producción",
-        "Integrado",
-        "Desarrollo"
-      ],
+      "options": ["OCTA", "Producción", "Integrado", "Desarrollo"],
       "answer": "Producción",
       "topic": "General"
     },
@@ -1381,12 +1271,7 @@
     {
       "id": "873ef1f5-6a80-4470-aaab-37dbea59c4b6",
       "question": "¿Cuántas utilidades de Oracle hay en APX Bacth R3?",
-      "options": [
-        "3",
-        "2",
-        "5",
-        "7"
-      ],
+      "options": ["3", "2", "5", "7"],
       "answer": "2",
       "topic": "General"
     },
@@ -1455,34 +1340,21 @@
     {
       "id": "42a04156-4a8b-41da-af99-0aec7bd3461d",
       "question": "¿Qué versión de Java tienen los nuevos nodos de APX?",
-      "options": [
-        "JDK 8",
-        "JDK 11",
-        "JDK 14",
-        "JDK 17"
-      ],
+      "options": ["JDK 8", "JDK 11", "JDK 14", "JDK 17"],
       "answer": "JDK 11",
       "topic": "General"
     },
     {
       "id": "f4452a27-b742-4aec-822e-154415a638d3",
       "question": "¿Se pueden excepcionar los DTO para excluir la cobertura de Sonar?",
-      "options": [
-        "Verdadero",
-        "Falso"
-      ],
+      "options": ["Verdadero", "Falso"],
       "answer": "Verdadero",
       "topic": "General"
     },
     {
       "id": "56d4a3b2-c4b1-4586-a931-59081c9d1252",
       "question": "¿Que se define como un conjunto de operaciones que se ejecutan como un solo elemento?",
-      "options": [
-        "Transacción",
-        "Librería",
-        "DTO",
-        "Todas son correctas"
-      ],
+      "options": ["Transacción", "Librería", "DTO", "Todas son correctas"],
       "answer": "Transacción",
       "topic": "General"
     },
@@ -1537,12 +1409,7 @@
     {
       "id": "e7763cff-41ed-478d-819f-28506442829c",
       "question": "¿Que componentes no tienen ninguna lógica comercial?",
-      "options": [
-        "JOB",
-        "DTO",
-        "Librería",
-        "Transacción"
-      ],
+      "options": ["JOB", "DTO", "Librería", "Transacción"],
       "answer": "DTO",
       "topic": "General"
     },
@@ -1573,12 +1440,7 @@
     {
       "id": "3c54cd39-c8ef-4909-bef0-d8bc6f2c5ff9",
       "question": "Para generar una librería nueva, utilizamos el comando apx init lib. Definimos la UUAA de 4 caracteres y el code biblioteca de 3 caracteres. ¿Cuál es el carácter fijo que define que es una librería?",
-      "options": [
-        "C",
-        "R",
-        "T",
-        "X"
-      ],
+      "options": ["C", "R", "T", "X"],
       "answer": "R",
       "topic": "General"
     },
@@ -1621,12 +1483,7 @@
     {
       "id": "2eacb2ad-332b-47b0-8e09-46b1f1cb51bf",
       "question": "¿Qué mínimo de cobertura en Sonar debe tener un componente?",
-      "options": [
-        "75%",
-        "80%",
-        "70%",
-        "85%"
-      ],
+      "options": ["75%", "80%", "70%", "85%"],
       "answer": "80%",
       "topic": "General"
     },
@@ -1657,12 +1514,7 @@
     {
       "id": "32ad8cfe-2c15-4327-b9ed-12bbc7ab6002",
       "question": "¿Cuál es la herramienta oficial para trabajar con los componentes APX?",
-      "options": [
-        "APX Libraries",
-        "APX CLI",
-        "APX Runner",
-        "APX Version"
-      ],
+      "options": ["APX Libraries", "APX CLI", "APX Runner", "APX Version"],
       "answer": "APX CLI",
       "topic": "General"
     },
@@ -1745,9 +1597,11 @@
       "question": "¿Qué se debe hacer cuando se quiere consumir una librería de otra UUAA?",
       "options": [
         "Nada, las librerías se pueden consumir sin problema",
-        "Abrir un Jira a arquitectura apx"
+        "Abrir un Jira a arquitectura apx",
+        "Avisar al aplicativo mediante un correo al responsable de la UUAA",
+        "No se pueden consumir librerías de otras UUAAs en APX online"
       ],
-      "answer": "",
+      "answer": "Avisar al aplicativo mediante un correo al responsable de la UUAA",
       "topic": "General"
     },
     {
@@ -1801,12 +1655,7 @@
     {
       "id": "fee137ed-f3d5-4e7b-b287-f0c3d981fb32",
       "question": "Cuál es el nombre correcto para una librería",
-      "options": [
-        "LIBUUAAXXX",
-        "XXXUUAALIB",
-        "UUAARXXX",
-        "XXXLIBUUAA"
-      ],
+      "options": ["LIBUUAAXXX", "XXXUUAALIB", "UUAARXXX", "XXXLIBUUAA"],
       "answer": "UUAARXXX",
       "topic": "General"
     },
@@ -1909,12 +1758,7 @@
     {
       "id": "ad59ebcf-9c10-415f-9ec9-3393ecc44cde",
       "question": "¿Cuál es el número máximo de métodos que se pueden incluir en una librería?",
-      "options": [
-        "3",
-        "5",
-        "7",
-        "9"
-      ],
+      "options": ["3", "5", "7", "9"],
       "answer": "5",
       "topic": "General"
     },
@@ -1971,12 +1815,7 @@
     {
       "id": "bab6cfde-aa93-4583-9cb2-5b998fcc4157",
       "question": "¿Desde qué componente puedo realizar acceso a base de datos en APX online?",
-      "options": [
-        "Transacción",
-        "DTO",
-        "Librería",
-        "Todas las anteriores"
-      ],
+      "options": ["Transacción", "DTO", "Librería", "Todas las anteriores"],
       "answer": "Librería",
       "topic": "General"
     },
@@ -2127,12 +1966,7 @@
     {
       "id": "9a020418-9a0c-4c37-9c6f-e5f739c4b714",
       "question": "Hasta qué entorno puedo desplegar una rama feature",
-      "options": [
-        "Integrado",
-        "OCTA",
-        "Desarrollo",
-        "Producción"
-      ],
+      "options": ["Integrado", "OCTA", "Desarrollo", "Producción"],
       "answer": "Integrado",
       "topic": "General"
     },
@@ -2151,24 +1985,14 @@
     {
       "id": "f15f2a7f-33fd-495b-9fd3-e15c24651873",
       "question": "¿Que componentes no tienen ninguna lógica comercial?",
-      "options": [
-        "Librería",
-        "Transacción",
-        "JOB",
-        "DTO"
-      ],
+      "options": ["Librería", "Transacción", "JOB", "DTO"],
       "answer": "DTO",
       "topic": "General"
     },
     {
       "id": "e7763cff-41ed-478d-819f-28506442829c",
       "question": "¿Que componentes no tienen ninguna lógica comercial?",
-      "options": [
-        "JOB",
-        "DTO",
-        "Librería",
-        "Transacción"
-      ],
+      "options": ["JOB", "DTO", "Librería", "Transacción"],
       "answer": "DTO",
       "topic": "General"
     }
@@ -2189,12 +2013,7 @@
     {
       "id": "c4e058c7-c10b-4595-b289-e6fab56c1e74",
       "question": "En el aprovisionamiento dinámico (España) podemos ver el árbol de dependencias.¿En qué entorno?",
-      "options": [
-        "Release",
-        "AUS",
-        "Producción",
-        "Piloto"
-      ],
+      "options": ["Release", "AUS", "Producción", "Piloto"],
       "answer": "Release",
       "topic": "General"
     },
@@ -2237,12 +2056,7 @@
     {
       "id": "5ef8b860-aebb-4333-9470-fd10f8c10c5f",
       "question": "La cobertura mínima exigida para poder desplegar una rama de APX es de",
-      "options": [
-        "80",
-        "70",
-        "60",
-        "90"
-      ],
+      "options": ["80", "70", "60", "90"],
       "answer": "80",
       "topic": "General"
     },
@@ -2321,12 +2135,7 @@
     {
       "id": "22001beb-b476-431e-86db-b27d1c4cdf05",
       "question": "Cuando vemos un componente del tipo UUAAR001, estamos hablando de:",
-      "options": [
-        "Una transacción",
-        "Un DTO",
-        "Un job",
-        "Una librería"
-      ],
+      "options": ["Una transacción", "Un DTO", "Un job", "Una librería"],
       "answer": "Una librería",
       "topic": "General"
     },
@@ -2479,24 +2288,14 @@
     {
       "id": "84cf60db-60b8-4261-ab58-71ee054db715",
       "question": "La rama Release se obtiene desde la rama",
-      "options": [
-        "develop",
-        "master",
-        "feature",
-        "bugfix"
-      ],
-      "answer": "feature",
+      "options": ["develop", "master", "feature", "bugfix"],
+      "answer": "develop",
       "topic": "General"
     },
     {
       "id": "edf74b71-e503-48df-8975-4e2fc1954d1a",
       "question": "¿Qué aplicación utilizamos si queremos ver logs y rastros de nuestras ejecuciones?",
-      "options": [
-        "Sonar",
-        "Jenkins",
-        "Ether",
-        "Atenea"
-      ],
+      "options": ["Sonar", "Jenkins", "Ether", "Atenea"],
       "answer": "Atenea",
       "topic": "General"
     },
@@ -2551,12 +2350,7 @@
     {
       "id": "e71e3306-2226-4739-a226-decb1d756bde",
       "question": "¿Cuál es el número máximo de métodos que se pueden incluir en una librería?",
-      "options": [
-        "5",
-        "3",
-        "9",
-        "7"
-      ],
+      "options": ["5", "3", "9", "7"],
       "answer": "5",
       "topic": "General"
     },
@@ -2673,12 +2467,7 @@
     {
       "id": "e17e0f86-5b6c-4f38-a83a-403c499665f6",
       "question": "Para añadir una dependencia mediante APX cli deberemos usar el comando",
-      "options": [
-        "apx add dto",
-        "apx add lib",
-        "apx init",
-        "apx add dep"
-      ],
+      "options": ["apx add dto", "apx add lib", "apx init", "apx add dep"],
       "answer": "apx add dep",
       "topic": "General"
     },
@@ -2697,12 +2486,7 @@
     {
       "id": "4f8fb757-f934-4f4b-a2ba-e264835f9a55",
       "question": "Al ejecutar nuestros componentes APX, en caso de error, ¿dónde tenemos que ir a ver las trazas?",
-      "options": [
-        "Atenea",
-        "Consola de Operaciones",
-        "Felix",
-        "Kibana"
-      ],
+      "options": ["Atenea", "Consola de Operaciones", "Felix", "Kibana"],
       "answer": "Atenea",
       "topic": "General"
     },
@@ -2733,24 +2517,14 @@
     {
       "id": "c8b6bea7-a00d-4e04-becc-74f1f6618464",
       "question": "¿Cuántas utilidades de Oracle hay en APX Batch R3?",
-      "options": [
-        "2",
-        "7",
-        "3",
-        "5"
-      ],
+      "options": ["2", "7", "3", "5"],
       "answer": "2",
       "topic": "General"
     },
     {
       "id": "7fc496ff-519c-42a7-bd81-f36308675c79",
       "question": "La arquitectura bancaria de ejecución por lotes en APX se basa en:",
-      "options": [
-        "LRBA",
-        "APX Batch",
-        "Spring Batch",
-        "Nacar Batch"
-      ],
+      "options": ["LRBA", "APX Batch", "Spring Batch", "Nacar Batch"],
       "answer": "Spring Batch",
       "topic": "General"
     },
@@ -2805,24 +2579,14 @@
     {
       "id": "f5a83c85-db8b-41c1-9602-538975ea7e86",
       "question": "Hasta qué entorno puedo desplegar una rama hotfix",
-      "options": [
-        "OCTA",
-        "Desarrollo",
-        "Producción",
-        "Integrado"
-      ],
+      "options": ["OCTA", "Desarrollo", "Producción", "Integrado"],
       "answer": "Integrado",
       "topic": "General"
     },
     {
       "id": "46cab533-700d-4978-a64f-7017b5ce7f28",
       "question": "Cuando vemos un componente del tipo UUAAR001, estamos hablando de",
-      "options": [
-        "Un DTO",
-        "Un job",
-        "Una librería",
-        "Una transacción"
-      ],
+      "options": ["Un DTO", "Un job", "Una librería", "Una transacción"],
       "answer": "Una librería",
       "topic": "General"
     },
